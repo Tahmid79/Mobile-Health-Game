@@ -5,7 +5,19 @@ using UnityEngine.AI;
 
 public class Enemy_Controller : MonoBehaviour {
 
-    public float lookRadius = 10f;
+    public float lookRadius = 5f;
+
+     public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
+    public int attackDamage = 5;               // The amount of health taken away per attack.
+
+
+    Animator anim;                              // Reference to the animator component.
+    GameObject Walking;                          // Reference to the player GameObject.
+    PlayerHealth playerHealth;                  // Reference to the player's health.
+    bool playerInRange;                         // Whether player is within the trigger collider and can be attacked.
+    float timer;
+
+
 
     Transform target;
     NavMeshAgent agent;
@@ -14,16 +26,21 @@ public class Enemy_Controller : MonoBehaviour {
     // Use this for initialization
     void Start () {
         target = PlayerManager.instance.player.transform;
+        Walking = GameObject.FindGameObjectWithTag ("Player");
+        playerHealth = Walking.GetComponent <PlayerHealth> ();
         agent = GetComponent<NavMeshAgent>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+                timer += Time.deltaTime;
+
         float distance;
         distance = Vector3.Distance(target.position, transform.position);
 
         if(distance <= lookRadius && distance>2f )
         {
+<<<<<<< HEAD
             transform.LookAt(target.position);
             transform.Rotate(new Vector3(0, -90, 0), Space.Self);
 
@@ -36,9 +53,28 @@ public class Enemy_Controller : MonoBehaviour {
         if(distance < 2f)
         {     
             BackAway();     
+=======
+            agent.SetDestination(target.position);
+            if(timer >= timeBetweenAttacks){
+                // ... attack.
+            Attack ();
+            }
+>>>>>>> origin/USama
         }
 		
 	}
+
+      void Attack ()
+    {
+        // Reset the timer.
+        timer = 0f;
+
+        // If the player has health to lose...
+        
+            // ... damage the player.
+            playerHealth.TakeDamage (attackDamage);
+        
+    }
 
     private void OnDrawGizmosSelected()
     {
