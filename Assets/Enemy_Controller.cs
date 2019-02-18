@@ -11,8 +11,10 @@ public class Enemy_Controller : MonoBehaviour {
     public int attackDamage = 5;               // The amount of health taken away per attack.
 
 
-    Animator anim;                              // Reference to the animator component.
-    GameObject Walking;                          // Reference to the player GameObject.
+    Animator anim; 
+   public Animator Eanim;                             // Reference to the animator component.
+    GameObject Walking;  
+    GameObject Enemy     ;                   // Reference to the player GameObject.
     PlayerHealth playerHealth;                  // Reference to the player's health.
     bool playerInRange;                         // Whether player is within the trigger collider and can be attacked.
     float timer;
@@ -25,8 +27,13 @@ public class Enemy_Controller : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        
+        Enemy  =  GameObject.FindGameObjectWithTag ("Enemy");
+        Eanim = Enemy.GetComponent<Animator> (); 
+        
         target = PlayerManager.instance.player.transform;
         Walking = GameObject.FindGameObjectWithTag ("Player");
+
         playerHealth = Walking.GetComponent <PlayerHealth> ();
         agent = GetComponent<NavMeshAgent>();
 	}
@@ -41,8 +48,12 @@ public class Enemy_Controller : MonoBehaviour {
         if(distance <= lookRadius)
         {
             agent.SetDestination(target.position);
+                        Eanim.Play("Running");
+
             if(timer >= timeBetweenAttacks){
                 // ... attack.
+          Eanim.Play("Take 001");
+
             Attack ();
             }
         }
