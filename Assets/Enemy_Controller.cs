@@ -7,7 +7,7 @@ public class Enemy_Controller : MonoBehaviour {
 
     public float lookRadius = 10f;
 
-     public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
+    public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
     public int attackDamage = 5;               // The amount of health taken away per attack.
 
 
