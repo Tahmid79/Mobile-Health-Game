@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class Enemy_Controller : MonoBehaviour {
 
-    public float lookRadius = 5f;
+    public float lookRadius = 10f;
 
      public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
     public int attackDamage = 5;               // The amount of health taken away per attack.
@@ -22,7 +22,10 @@ public class Enemy_Controller : MonoBehaviour {
     Transform target;
     NavMeshAgent agent;
 
-   
+    bool backing;
+    int flg = 0;
+
+
     // Use this for initialization
     void Start () {
         target = PlayerManager.instance.player.transform;
@@ -38,29 +41,31 @@ public class Enemy_Controller : MonoBehaviour {
         float distance;
         distance = Vector3.Distance(target.position, transform.position);
 
-        if(distance <= lookRadius && distance>2f )
+
+        
+
+        if(distance <= lookRadius && distance>3f && backing==false)
         {
-<<<<<<< HEAD
-            transform.LookAt(target.position);
-            transform.Rotate(new Vector3(0, -90, 0), Space.Self);
-
-
-            //agent.SetDestination(target.position);
-            float speed = 4f;
-            transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
+          
+            MoveTowards();
+          
         }
 
-        if(distance < 2f)
-        {     
-            BackAway();     
-=======
+        else if(distance < 2f  )
+        {
+            backing = true;
             agent.SetDestination(target.position);
+            BackAway();     
+
             if(timer >= timeBetweenAttacks){
                 // ... attack.
             Attack ();
             }
->>>>>>> origin/USama
+            backing = false;
+          
         }
+
+        
 		
 	}
 
@@ -85,6 +90,19 @@ public class Enemy_Controller : MonoBehaviour {
     void BackAway()
     {
         transform.Translate(Vector3.back * 4f * Time.deltaTime);
+    }
+
+    void MoveTowards()
+    {
+        transform.LookAt(target.position);
+        transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+
+
+        //agent.SetDestination(target.position);
+        float speed = 4f;
+        transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
+
+
     }
 
 
