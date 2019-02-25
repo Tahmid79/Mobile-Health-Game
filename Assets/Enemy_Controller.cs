@@ -40,6 +40,8 @@ public class Enemy_Controller : MonoBehaviour {
  public float smoothTime = 2f;
  //Vector3 used to store the velocity of the enemy
  private Vector3 smoothVelocity = Vector3.zero;
+
+
  //Call every frame
 	void Update () {
         timer += Time.deltaTime;
@@ -59,8 +61,11 @@ public class Enemy_Controller : MonoBehaviour {
            //    BackAway();  
           rb.velocity = new Vector3(0, 0, 0);
 
+            if(timer >=timeBetweenAttacks){
 
             Attack();
+
+            }
 
         }else
         {
