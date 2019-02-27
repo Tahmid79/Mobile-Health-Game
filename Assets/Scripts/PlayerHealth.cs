@@ -69,24 +69,24 @@ public class PlayerHealth : MonoBehaviour
   //      playerAudio.Play ();
 
         // If the player has lost all it's health and the death flag hasn't been set yet...
-       // if(currentHealth <= 0 && !isDead)
-        //{
-            // ... it should die.
-          //  Death ();
-       // }
+        if(currentHealth <= 0 && !isDead)
+        {
+           // ... it should die.
+            Death ();
+        }
     }
 
 
-    //void Death ()
-   // {
-        // Set the death flag so this function won't be called again.
-     //   isDead = true;
+    void Death ()
+ {
+    // Set the death flag so this function won't be called again.
+       isDead = true;
 
         // Turn off any remaining shooting effects.
    //     playerShooting.DisableEffects ();
 
         // Tell the animator that the player is dead.Current graphic doesnt have a a ' die ' animation 
-        //anim.SetTrigger ("Die");
+            anim.Play("death");
 
         // Set the audiosource to play the death clip and play it (this will stop the hurt sound from playing).
     //    playerAudio.clip = deathClip;
@@ -95,5 +95,5 @@ public class PlayerHealth : MonoBehaviour
         // Turn off the movement and shooting scripts.
    //     playerMovement.enabled = false;
      //   playerShooting.enabled = false;
- //   }       
+  }        
 }
