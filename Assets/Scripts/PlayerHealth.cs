@@ -25,7 +25,7 @@ public class PlayerHealth : MonoBehaviour
     {
         // Setting up the references.
         anim = GetComponent <Animator> ();
-    //    playerAudio = GetComponent <AudioSource> ();
+        playerAudio = GetComponent <AudioSource> ();
      //   playerMovement = GetComponent <PlayerMovement> ();
        // playerShooting = GetComponentInChildren <PlayerShooting> ();
 
@@ -89,8 +89,8 @@ public class PlayerHealth : MonoBehaviour
             anim.Play("death");
 
         // Set the audiosource to play the death clip and play it (this will stop the hurt sound from playing).
-    //    playerAudio.clip = deathClip;
-//playerAudio.Play ();
+      playerAudio.clip = deathClip;
+playerAudio.Play ();
 
         // Turn off the movement and shooting scripts.
    //     playerMovement.enabled = false;

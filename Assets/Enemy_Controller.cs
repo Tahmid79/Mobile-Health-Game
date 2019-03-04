@@ -7,9 +7,11 @@ public class Enemy_Controller : MonoBehaviour {
 
     public float lookRadius = 5f;
     public Rigidbody rb;
+    AudioSource playerAudio;                                    // Reference to the AudioSource component.
 
-     public float timeBetweenAttacks = 0.5f;     // The time in seconds between each attack.
+     public float timeBetweenAttacks = 2f;     // The time in seconds between each attack.
     public int attackDamage = 1;               // The amount of health taken away per attack.
+    public AudioClip slashClip;                                 // The audio clip to play when the player dies.
 
 
     Animator anim;                              // Reference to the animator component.
@@ -31,7 +33,10 @@ public class Enemy_Controller : MonoBehaviour {
         Walking = GameObject.FindGameObjectWithTag ("Player");
         playerHealth = Walking.GetComponent <PlayerHealth> ();
         Enemy  =  GameObject.FindGameObjectWithTag ("Enemy");
-        Eanim = Enemy.GetComponent<Animator> ();
+        Eanim = Enemy.GetComponent<Animator> ();     
+           playerAudio = Enemy.GetComponent <AudioSource> ();
+
+
 	}
 //The target player
  public Transform player;
@@ -81,10 +86,12 @@ public class Enemy_Controller : MonoBehaviour {
         timer = 0f;
 
         // If the player has health to lose...
-        
+       //  playerAudio.clip = slashClip;
+       // playerAudio.Play ();
             // ... damage the player.
-            playerHealth.TakeDamage (attackDamage);
                                     Eanim.Play("Take 001");
+                                                playerHealth.TakeDamage (attackDamage);
+
 
         
     }
@@ -99,6 +106,11 @@ public class Enemy_Controller : MonoBehaviour {
     {
         transform.Translate(Vector3.back * 4f * Time.deltaTime);
     }
-
+void SwordSwing  (float volume = 1f) {
+    //Change the "SoundFileName" to the sound file name that you want to play that is located in the Assets/Resources folder.
+		playerAudio.clip = slashClip;
+        playerAudio.Play ();
+		playerAudio.volume = volume;
+	}
 
 }
