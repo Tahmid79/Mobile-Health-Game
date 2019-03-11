@@ -49,7 +49,7 @@ public class player_mov : MonoBehaviour
         {
 
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
-            float maxangle = 90f;
+            float maxangle = -90f;
             rb.AddForce(-swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
             anim.Play("Running");
             if (transform.eulerAngles.magnitude < maxangle)
@@ -96,7 +96,7 @@ public class player_mov : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Z))
         {
-                        anim.Play("Boxing");
+                        anim.Play("Take 001");
 
             if(distance<=2f){
             

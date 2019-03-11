@@ -34,7 +34,7 @@ public class Enemy_Controller : MonoBehaviour {
         playerHealth = Walking.GetComponent <PlayerHealth> ();
         Enemy  =  GameObject.FindGameObjectWithTag ("Enemy");
         Eanim = Enemy.GetComponent<Animator> ();     
-           playerAudio = Enemy.GetComponent <AudioSource> ();
+        playerAudio = Walking.GetComponent <AudioSource> ();
 
 
 	}
@@ -60,7 +60,7 @@ public class Enemy_Controller : MonoBehaviour {
       {
 //Move the enemy towards the player with smoothdamp
          transform.position = Vector3.SmoothDamp(transform.position, player.position, ref smoothVelocity, smoothTime);
-            Eanim.Play("Running");
+            Eanim.Play("Mutant Run");
         }else if(distance <= 2f)
         {     
            //    BackAway();  
@@ -74,7 +74,7 @@ public class Enemy_Controller : MonoBehaviour {
 
         }else
         {
-            Eanim.Play("Idle");
+            Eanim.Play("Mutant Idle");
 
         }
 		
@@ -89,7 +89,7 @@ public class Enemy_Controller : MonoBehaviour {
        //  playerAudio.clip = slashClip;
        // playerAudio.Play ();
             // ... damage the player.
-                                    Eanim.Play("Take 001");
+                                    Eanim.Play("Mutant Swiping");
                                                 playerHealth.TakeDamage (attackDamage);
 
 
@@ -106,11 +106,5 @@ public class Enemy_Controller : MonoBehaviour {
     {
         transform.Translate(Vector3.back * 4f * Time.deltaTime);
     }
-void SwordSwing  (float volume = 1f) {
-    //Change the "SoundFileName" to the sound file name that you want to play that is located in the Assets/Resources folder.
-		playerAudio.clip = slashClip;
-        playerAudio.Play ();
-		playerAudio.volume = volume;
-	}
 
 }

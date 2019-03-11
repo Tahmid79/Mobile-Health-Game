@@ -213,9 +213,9 @@ ModelImporter:
       - time: 0.34957626
         functionName: SwordSwing
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: fc288a0acdfdc5e43b9474adf2d53e22,
+        objectReferenceParameter: {fileID: 11500000, guid: d9351713f116ecf4f99132e380326aa6,
           type: 3}
-        floatParameter: 0.5
+        floatParameter: 1
         intParameter: 0
         messageOptions: 0
       transformMask: []
