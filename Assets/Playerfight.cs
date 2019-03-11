@@ -49,7 +49,7 @@ public class Playerfight : MonoBehaviour
             anim.Play("Running");
             if (transform.eulerAngles.magnitude < maxangle)
                 transform.Rotate(-Vector3.up * 90f);
-
+    
         }
 
 

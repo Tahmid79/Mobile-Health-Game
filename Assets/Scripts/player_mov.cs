@@ -5,6 +5,8 @@ using UnityEngine;
 public class player_mov : MonoBehaviour
 {
     public int attackDamage = 1;               // The amount of health taken away per attack.
+    float timer;
+     public float timeBetweenAttacks = 1.5f;     // The time in seconds between each attack.
 
     public Rigidbody rb;
     GameObject Enemy;  
@@ -32,9 +34,9 @@ public class player_mov : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (Input.GetKey("d"))
+          if (Input.GetKey("d"))
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 20f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
             float maxangle = 90f;
             rb.AddForce(swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
             anim.Play("Running");
@@ -45,11 +47,11 @@ public class player_mov : MonoBehaviour
 
 
 
-        if (Input.GetKey("a"))
+         if (Input.GetKey("a"))
         {
 
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
-            float maxangle = -90f;
+            float maxangle = 90f;
             rb.AddForce(-swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
             anim.Play("Running");
             if (transform.eulerAngles.magnitude < maxangle)
@@ -58,13 +60,12 @@ public class player_mov : MonoBehaviour
         }
 
 
-        if (Input.GetKey("w"))
+         if (Input.GetKey("w"))
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
             rb.AddForce(0, 0, fwdforce * Time.deltaTime, ForceMode.VelocityChange);
             anim.Play("Running");
         }
-
 
         if (Input.GetKey("s"))
         {
@@ -85,6 +86,8 @@ public class player_mov : MonoBehaviour
 
     void Update()
     {
+                timer += Time.deltaTime;
+
          float distance = Vector3.Distance(transform.position, Enemypos.position);
 
         if (Input.GetKeyUp("a") || Input.GetKeyUp("s") || Input.GetKeyUp("d") || Input.GetKeyUp("w"))
@@ -100,7 +103,11 @@ public class player_mov : MonoBehaviour
 
             if(distance<=2f){
             
-            Attack ();
+           if(timer >=timeBetweenAttacks){
+
+            Attack();
+
+            }
             }
         }
 		if (Input.GetKey(KeyCode.X))
@@ -115,7 +122,8 @@ public class player_mov : MonoBehaviour
        ;
 
         // If the player has health to lose...
-        
+                timer = 0f;
+
             // ... damage the player.
             EnemyHealth.TakeDamage (attackDamage);
                                   //  Eanim.Play("Take 001");
