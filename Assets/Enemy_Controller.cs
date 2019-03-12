@@ -61,7 +61,7 @@ public class Enemy_Controller : MonoBehaviour {
 //Move the enemy towards the player with smoothdamp
          transform.position = Vector3.SmoothDamp(transform.position, player.position, ref smoothVelocity, smoothTime);
             Eanim.Play("Mutant Run");
-        }else if(distance <= 2f)
+        }else if(distance <= 3f)
         {     
            //    BackAway();  
           rb.velocity = new Vector3(0, 0, 0);

@@ -99,7 +99,7 @@ public class player_mov : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Z))
         {
-                        anim.Play("Take 001");
+                        anim.Play("Slash");
 
             if(distance<=2f){
             
@@ -112,7 +112,7 @@ public class player_mov : MonoBehaviour
         }
 		if (Input.GetKey(KeyCode.X))
         {
-            anim.Play("BreakDance");
+            anim.Play("Dance");
         }
 
 
