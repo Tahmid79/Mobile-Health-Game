@@ -90,7 +90,7 @@ public class Playerfight : MonoBehaviour
 			*/
         }
 
-		rb.AddForce(Physics.gravity * rb.mass); //gravity
+		rb.AddForce(Physics.gravity * rb.mass * 3f); //gravity
 
 	}
 

@@ -8963,7 +8963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 1146208066}
-  fwdforce: 200
+  fwdforce: 90
   swdforce: 80
   originalRotationValue: {x: 0, y: 0, z: 0, w: 0}
   Cam: {fileID: 1968992928}
@@ -14300,20 +14300,20 @@ Camera:
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 2
+  m_projectionMatrixMode: 1
   m_SensorSize: {x: 54.12, y: 25.59}
   m_LensShift: {x: 0, y: 0}
   m_GateFitMode: 2
-  m_FocalLength: 24.063894
+  m_FocalLength: 20.084126
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
+  near clip plane: 10
   far clip plane: 1000
-  field of view: 56
+  field of view: 74
   orthographic: 0
   orthographic size: 42.231567
   m_Depth: 0
