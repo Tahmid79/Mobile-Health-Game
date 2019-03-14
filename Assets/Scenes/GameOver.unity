@@ -818,7 +818,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: OK
 --- !u!222 &370128105
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1045,8 +1045,9 @@ GameObject:
   - component: {fileID: 674719258}
   - component: {fileID: 674719257}
   - component: {fileID: 674719256}
+  - component: {fileID: 674719261}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: RewardPopupCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1146,6 +1147,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &674719261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 674719255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dec2c781b952384a91e56491223ff31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverUI: {fileID: 1217785370}
+  PopupMenuUI: {fileID: 674719255}
+  scoreText: {fileID: 0}
+  winText: {fileID: 0}
 --- !u!1 &723983785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1583,8 +1599,9 @@ GameObject:
   - component: {fileID: 1217785373}
   - component: {fileID: 1217785372}
   - component: {fileID: 1217785371}
+  - component: {fileID: 1217785376}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GameOverCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1681,6 +1698,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1217785376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1217785370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dec2c781b952384a91e56491223ff31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameOverUI: {fileID: 1217785370}
+  PopupMenuUI: {fileID: 674719255}
+  scoreText: {fileID: 247839914}
+  winText: {fileID: 1300459904}
 --- !u!1 &1263674377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,8 +2017,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 135.9, y: -89.078}
+  m_SizeDelta: {x: 62.3, y: 27.844}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1513759212
 MonoBehaviour:
@@ -2026,7 +2058,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1513759213}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1696759335}
+        m_MethodName: onPopupDoneBtnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1513759213
@@ -2284,6 +2327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dec2c781b952384a91e56491223ff31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOverUI: {fileID: 1217785370}
+  PopupMenuUI: {fileID: 674719255}
   scoreText: {fileID: 247839914}
   winText: {fileID: 1300459904}
 --- !u!1 &1854895595

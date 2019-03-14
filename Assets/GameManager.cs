@@ -49,7 +49,7 @@ private int trueSelectionIndex;
 
 private string connectionString;
 
-private int currentQuestionIndex = 0;
+private int currentQuestionNumber = 0;
 
 void Start(){
 
@@ -67,6 +67,10 @@ void Start(){
 
 	loadQuestions();
 	System.Random rnd = new System.Random();
+
+	// //Set the current question index which will be used later to remove the answered question from the List
+	// currentQuestionIndex = rnd.Next(0, questions.Count);
+
 	setCurrentQuestion(rnd.Next(0, questions.Count));
 
 	sessionScore = 0;
@@ -81,11 +85,11 @@ private void setCurrentQuestion(int index){
 	// Debug.Log("Current question method called.");
 
 	// 	Debug.Log("Current question is being set");
-
+		currentQuestionNumber++;
 
 		currentQuestion = questions[index];
 
-		questionText.text = currentQuestion.questionStatement;
+		questionText.text = "Question " + currentQuestionNumber + ":\n" + currentQuestion.questionStatement;
 		optionOneText.text = currentQuestion.optionOne;
 		optionTwoText.text = currentQuestion.optionTwo;
 		optionThreeText.text = currentQuestion.optionThree;
@@ -174,6 +178,9 @@ void loadQuestions() {
 		optionTwoLayer.GetComponent<Image>().color = Color.white;
 		optionThreeLayer.GetComponent<Image>().color = Color.white;
 		optionFourLayer.GetComponent<Image>().color = Color.white;
+
+		//Remove the answered question from the List so it isn't repeated
+		// questions.RemoveAt(currentQuestionIndex);
 
 		if(questionsAnswered < 10){
 

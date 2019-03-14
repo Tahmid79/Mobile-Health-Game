@@ -21,32 +21,17 @@ public class PopupMenu : MonoBehaviour {
 
 
 
-		Debug.Log("Popup UI called");
+		// Debug.Log("Popup UI called");
 
-		if(Input.GetKeyDown(KeyCode.Escape)){
-			Debug.Log("Display the popup");
-			displayPopup();
-		}
-
-		// Debug.Log("Popup Menu Called");
-		
-		// if(sessionScore > 5){
-
-		// 	Debug.Log("Player won!");
-
+		// if(Input.GetKeyDown(KeyCode.Escape)){
+		// 	Debug.Log("Display the popup");
 		// 	displayPopup();
-
-			
-
-		// } else{
-
-		// 	Debug.Log("Player lost!");
-
-		// 	PopupMenuUI.SetActive(false);
 		// }
 	}
 
-	private void displayPopup(){
+	public void displayPopup(){
+
+		Debug.Log("Popup displayed");
 
 		PopupMenuUI.SetActive(true);
 		GameOverUI.SetActive(false);

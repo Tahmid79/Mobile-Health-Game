@@ -12,6 +12,10 @@ public class GameOverManager : MonoBehaviour {
 
 	GameObject tryAgainButton, quitButton, scoreCounter, win;
 
+	public GameObject GameOverUI, PopupMenuUI;
+
+	private float transitionDelay = 1f;
+
 	GameManager gameManager = new GameManager();
 
 	[SerializeField]
@@ -39,6 +43,9 @@ public class GameOverManager : MonoBehaviour {
 
 			winText.text = "YOU WIN!";
 			Debug.Log("YOU WIN!");
+			
+			displayPopup();
+
 		} else{
 
 			winText.text = "YOU LOSE!";
@@ -73,6 +80,22 @@ public class GameOverManager : MonoBehaviour {
 
 	public void onTryAgainBtnClick(){
 		SceneManager.LoadScene(1);
+	}
+
+	public void displayPopup(){
+
+		
+		// yield return new WaitForSeconds(transitionDelay);
+
+		Debug.Log("Popup displayed");
+
+		PopupMenuUI.SetActive(true);
+		GameOverUI.SetActive(false);
+	}
+
+	public void onPopupDoneBtnClick(){
+		PopupMenuUI.SetActive(false);
+		GameOverUI.SetActive(true);
 	}
 
 }
