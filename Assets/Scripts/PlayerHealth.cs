@@ -79,6 +79,10 @@ playerAudio = this.GetComponent <AudioSource> ();
             Death ();
         }
     }
+    public void IncHealth(int amount){
+        currentHealth += amount;
+        healthSlider.value = currentHealth;
+    }
 
 
     void Death ()
