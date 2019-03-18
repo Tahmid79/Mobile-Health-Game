@@ -1162,6 +1162,8 @@ MonoBehaviour:
   PopupMenuUI: {fileID: 674719255}
   scoreText: {fileID: 0}
   winText: {fileID: 0}
+  itemText: {fileID: 0}
+  itemDescription: {fileID: 0}
 --- !u!1 &723983785
 GameObject:
   m_ObjectHideFlags: 0
@@ -1713,6 +1715,8 @@ MonoBehaviour:
   PopupMenuUI: {fileID: 674719255}
   scoreText: {fileID: 247839914}
   winText: {fileID: 1300459904}
+  itemText: {fileID: 0}
+  itemDescription: {fileID: 0}
 --- !u!1 &1263674377
 GameObject:
   m_ObjectHideFlags: 0
@@ -2331,6 +2335,8 @@ MonoBehaviour:
   PopupMenuUI: {fileID: 674719255}
   scoreText: {fileID: 247839914}
   winText: {fileID: 1300459904}
+  itemText: {fileID: 1263674379}
+  itemDescription: {fileID: 164947684}
 --- !u!1 &1854895595
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,8 +24,21 @@ public class GameOverManager : MonoBehaviour {
 	[SerializeField]
 	private Text winText;
 
+	[SerializeField]
+	private Text itemText;
+
+	[SerializeField]
+	private Text itemDescription;
+
+	private Item rewardedItem;
+
+	private string connectionString;
+
 	// Use this for initialization
 	void Start () {
+
+		connectionString = "URI=file:" + Application.dataPath + "/InventoryDatabase.db";
+
 
 		//Initialize object references
 		tryAgainButton = GameObject.Find("TryAgainBtnLayer");
@@ -44,6 +57,8 @@ public class GameOverManager : MonoBehaviour {
 			winText.text = "YOU WIN!";
 			Debug.Log("YOU WIN!");
 			
+			//Call this method to add a new item to the player's inventory 
+			addNewItem();
 			displayPopup();
 
 		} else{
@@ -85,17 +100,73 @@ public class GameOverManager : MonoBehaviour {
 	public void displayPopup(){
 
 		
-		// yield return new WaitForSeconds(transitionDelay);
+		//TODO: Add a time delay for popup to appear
 
 		Debug.Log("Popup displayed");
 
 		PopupMenuUI.SetActive(true);
 		GameOverUI.SetActive(false);
+
+		populateRewardPopup();
 	}
 
 	public void onPopupDoneBtnClick(){
 		PopupMenuUI.SetActive(false);
 		GameOverUI.SetActive(true);
+	}
+
+	//Gets a new item and adds it to the table for the inventory
+	private void addNewItem(){
+		
+		using (IDbConnection dbConnection = new SqliteConnection(connectionString))
+		{
+			dbConnection.Open();
+
+			//First get a new item from the Item table
+			using (IDbCommand dbCmd = dbConnection.CreateCommand())
+			{
+				string sqlQuery = "SELECT * FROM Item WHERE ItemID = 1";
+
+				dbCmd.CommandText = sqlQuery;
+
+				using (IDataReader reader = dbCmd.ExecuteReader())
+				{
+
+					while(reader.Read()){
+						//Add the new item from the database as a new Item object
+						rewardedItem = new Item(
+							reader.GetString(1),
+							reader.GetString(2),
+							reader.GetString(3),
+							1
+						);
+				}
+
+						Debug.Log("Reward: " + rewardedItem.name + ", " + rewardedItem.description);
+					}
+				}
+
+			using (IDbCommand dbCmd = dbConnection.CreateCommand())
+			{
+				string insert = "INSERT INTO EquippedItems (ID, ItemId, ItemCount) VALUES ";
+
+				//Add the values to insert into the table
+				string values = rewardedItem.id + ", " + rewardedItem.id + ", " + rewardedItem.count + ");";
+				string sqlInsert = String.Concat(insert, rewardedItem);
+
+				dbCmd.CommandText = sqlInsert;
+
+				dbConnection.Close();
+			}
+		}
+	}
+
+	private void populateRewardPopup(){
+
+		//Add the name, icon and description from the Item class attributes
+		itemText.text = rewardedItem.name;
+		itemDescription.text = rewardedItem.description;
+		
 	}
 
 }
