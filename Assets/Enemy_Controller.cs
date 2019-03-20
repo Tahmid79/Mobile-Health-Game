@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public class Enemy_Controller : MonoBehaviour {
 
     public float lookRadius = 5f;
+    public float distance_to_attack = 10f;
     public Rigidbody rb;
     AudioSource playerAudio;                                    // Reference to the AudioSource component.
 
@@ -56,12 +57,12 @@ public class Enemy_Controller : MonoBehaviour {
      //Calculate distance between player
      float distance = Vector3.Distance(transform.position, player.position);
      //If the distance is smaller than the walkingDistance
-        if(distance <= lookRadius && distance>2f )
+        if(distance <= lookRadius && distance>distance_to_attack )
       {
 //Move the enemy towards the player with smoothdamp
          transform.position = Vector3.SmoothDamp(transform.position, player.position, ref smoothVelocity, smoothTime);
             Eanim.Play("Mutant Run");
-        }else if(distance <= 3f)
+        }else if(distance <= distance_to_attack)
         {     
            //    BackAway();  
           rb.velocity = new Vector3(0, 0, 0);
