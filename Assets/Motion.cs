@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Motion : MonoBehaviour {
 
@@ -23,6 +24,21 @@ public class Motion : MonoBehaviour {
 
     // Update is called once per frame
     void FixedUpdate () {
+
+        //Go to the quiz if escape is pressed
+        if(Input.GetKey(KeyCode.Escape)){
+            SceneManager.LoadScene(0);
+        }
+
+        //Go to inventory
+        if(Input.GetKey("p")){
+            SceneManager.LoadScene(5);
+        }
+
+        //Go to the boss fight if spacebar is pressed
+        if(Input.GetKey(KeyCode.Space)){
+            SceneManager.LoadScene(4);
+        }
 
         if (Input.GetKey("d"))
         {

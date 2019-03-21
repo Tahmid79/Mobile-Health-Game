@@ -11,7 +11,7 @@ using System;
 public class Inv_slots : MonoBehaviour {
 private string connectionString;
     PlayerHealth playerHealth;                  // Reference to the player's health.
-
+	//int health_inc
 	// Use this for initialization
 	void Start () {
 		        playerHealth = this.GetComponent <PlayerHealth> ();
@@ -31,6 +31,11 @@ private string connectionString;
 		 if (Input.GetKey("1"))
         {
 			HealthCounterSlot();
+           
+        }
+		 if (Input.GetKey("0"))
+        {
+			HealthCounterSlot_inc();
            
         }
 	}
@@ -53,7 +58,7 @@ private string connectionString;
 				{
 	Debug.Log("SQL excuted ");
 
-					while(reader.Read()){
+						reader.Read();
 
 						Health_potion_ID = reader.GetInt32(0);
 						//	reader.GetString(0),
@@ -61,22 +66,64 @@ private string connectionString;
 						 Health_potion_count = reader.GetInt32(2);
 						Debug.Log("Health Increased,ID="+Health_potion_ID+",ItemID="+b+",ItemCount="+Health_potion_count);
 
-						
-					}	
+																reader.Close();
+
 					
 
-				/*	if (Health_potion_count > 0 ){
+					if (Health_potion_count > 0 ){
+						playerHealth.IncHealth(10);
 						Health_potion_count=Health_potion_count-1;
 						string sqlQ = "UPDATE Equipped SET ItemCount = "+Health_potion_count+"  WHERE ID  = 2";
 						dbCmd.CommandText = sqlQ;
 
-						dbCmd.ExecuteReader();
-					}*/
-				
+						dbCmd.ExecuteScalar();
+					}
+
 
 					dbConnection.Close();
-					reader.Close();
+
 				}
+			}
+		}
+	}
+	void  HealthCounterSlot_inc(){
+		int b,Health_potion_ID,Health_potion_count;
+	using (IDbConnection dbConnection = new SqliteConnection(connectionString))
+		{
+			
+			dbConnection.Open();
+	Debug.Log("Database Opened");
+
+			using (IDbCommand dbCmd = dbConnection.CreateCommand())
+			{
+				string sqlQuery = "SELECT * FROM Equipped WHERE ID  = 2";
+
+				dbCmd.CommandText = sqlQuery;
+
+				using (IDataReader reader = dbCmd.ExecuteReader())
+				{
+				Debug.Log("SQL excuted ");
+
+reader.Read();
+
+						
+						 Health_potion_count = reader.GetInt32(2);
+
+																reader.Close();
+
+					
+Health_potion_count++;
+						//Health_potion_count_inc=Health_potion_count_inc+1;
+						string sqlQ = "UPDATE Equipped SET ItemCount = "+Health_potion_count+"  WHERE ID  = 2";
+						dbCmd.CommandText = sqlQ;
+
+						dbCmd.ExecuteScalar();
+					
+
+
+					dbConnection.Close();
+				}
+				
 			}
 		}
 	}
