@@ -93,7 +93,7 @@ public class player_mov : MonoBehaviour
         {
                         anim.Play("Slash");
 
-            if(distance<=2f){
+            if(distance<=8f){
             
            if(timer >=timeBetweenAttacks){
 
