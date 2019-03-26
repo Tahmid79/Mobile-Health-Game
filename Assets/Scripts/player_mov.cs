@@ -7,6 +7,8 @@ public class player_mov : MonoBehaviour
     public int attackDamage = 1;               // The amount of health taken away per attack.
     float timer;
      public float timeBetweenAttacks = 1.5f;     // The time in seconds between each attack.
+    AudioSource playerAudio;                                    // Reference to the AudioSource component.
+    public AudioClip footstepclip;                                 // The audio clip to play when the player dies.
 
     public Rigidbody rb;
     GameObject Enemy;  
@@ -23,6 +25,7 @@ public class player_mov : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        playerAudio = this.GetComponent <AudioSource> ();
 
         anim = GetComponent<Animator>();
         Enemy = GameObject.FindGameObjectWithTag ("Enemy");
@@ -66,7 +69,7 @@ public class player_mov : MonoBehaviour
 
 			Vector3 dir = transform.rotation * Vector3.back;
 			rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
-			anim.Play("Running");		
+			anim.Play("Sword And Shield Walk");		
 			
         }
 
@@ -122,7 +125,12 @@ public class player_mov : MonoBehaviour
 
         
     }
+ void footstepsound  (float volume = 1f) {
+    //Change the "SoundFileName" to the sound file name that you want to play that is located in the Assets/Resources folder.
+				playerAudio.PlayOneShot (footstepclip,volume);
 
+		//playerAudio.volume = volume;
+	}
 
 
 }
