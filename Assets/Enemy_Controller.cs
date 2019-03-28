@@ -54,7 +54,7 @@ public class Enemy_Controller : MonoBehaviour {
         else if(distance < 2f  )
         {
             backing = true;
-            agent.SetDestination(target.position);
+           // agent.SetDestination(target.position);
             BackAway();     
 
             if(timer >= timeBetweenAttacks){
