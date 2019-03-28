@@ -277,6 +277,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.329
@@ -312,10 +316,6 @@ PrefabInstance:
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -285
-      objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
@@ -426,6 +426,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.38700008
@@ -470,10 +474,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
 --- !u!4 &58174254 stripped
@@ -489,6 +489,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1380472176649076, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4485020111080562, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.297
@@ -532,10 +536,6 @@ PrefabInstance:
     - target: {fileID: 4485020111080562, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1380472176649076, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
@@ -654,6 +654,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.93200016
@@ -689,10 +693,6 @@ PrefabInstance:
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
@@ -760,6 +760,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.96
@@ -804,10 +808,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
 --- !u!4 &105082151 stripped
@@ -823,6 +823,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1604699191849480, guid: 9755affdab01d244c847c9ed27560876, type: 3}
+      propertyPath: m_Name
+      value: RFP_Candlestick
+      objectReference: {fileID: 0}
     - target: {fileID: 4826486944420944, guid: 9755affdab01d244c847c9ed27560876, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.77
@@ -858,10 +862,6 @@ PrefabInstance:
     - target: {fileID: 4826486944420944, guid: 9755affdab01d244c847c9ed27560876, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1604699191849480, guid: 9755affdab01d244c847c9ed27560876, type: 3}
-      propertyPath: m_Name
-      value: RFP_Candlestick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9755affdab01d244c847c9ed27560876, type: 3}
@@ -976,6 +976,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1641932774482916, guid: 93e2525d24f56a44c89cdf3a4b1084f3, type: 3}
+      propertyPath: m_Name
+      value: RFP_Twist_Candlestick_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4031398376771358, guid: 93e2525d24f56a44c89cdf3a4b1084f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.73
@@ -1011,10 +1015,6 @@ PrefabInstance:
     - target: {fileID: 4031398376771358, guid: 93e2525d24f56a44c89cdf3a4b1084f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 22.947
-      objectReference: {fileID: 0}
-    - target: {fileID: 1641932774482916, guid: 93e2525d24f56a44c89cdf3a4b1084f3, type: 3}
-      propertyPath: m_Name
-      value: RFP_Twist_Candlestick_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93e2525d24f56a44c89cdf3a4b1084f3, type: 3}
@@ -1118,6 +1118,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.2489994
@@ -1154,10 +1158,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 7.5710006
       objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
 --- !u!4 &207411151 stripped
@@ -1173,6 +1173,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.39300013
@@ -1209,10 +1213,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
       objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
 --- !u!4 &212133611 stripped
@@ -1228,6 +1228,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1685349439882408, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 3}
+      propertyPath: m_Name
+      value: RFP_TV
+      objectReference: {fileID: 0}
     - target: {fileID: 4820239689956586, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.81
@@ -1264,10 +1268,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 1685349439882408, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 3}
-      propertyPath: m_Name
-      value: RFP_TV
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76657ee725480b74dbefed1f4a6d2a62, type: 3}
 --- !u!4 &217724022 stripped
@@ -1283,6 +1283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1268636657800604, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
+      propertyPath: m_Name
+      value: RFP_Kitchen_Cabinet_Up
+      objectReference: {fileID: 0}
     - target: {fileID: 4673545020077960, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.5970998
@@ -1355,10 +1359,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1268636657800604, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
-      propertyPath: m_Name
-      value: RFP_Kitchen_Cabinet_Up
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
 --- !u!4 &234318900 stripped
@@ -1421,6 +1421,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4026057476649836, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15
@@ -1469,10 +1473,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
 --- !u!4 &247901728 stripped
@@ -1488,6 +1488,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1578233314806844, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chandelier_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4656910842398590, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.734
@@ -1524,10 +1528,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1578233314806844, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chandelier_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
 --- !u!4 &255625057 stripped
@@ -1543,6 +1543,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.7509999
@@ -1578,10 +1582,6 @@ PrefabInstance:
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
@@ -1645,6 +1645,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1380472176649076, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4485020111080562, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.8900003
@@ -1689,10 +1693,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1380472176649076, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
 --- !u!4 &294783563 stripped
@@ -1708,6 +1708,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5929995
@@ -1751,10 +1755,6 @@ PrefabInstance:
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
@@ -1830,6 +1830,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4026057476649836, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.87
@@ -1866,10 +1870,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
 --- !u!4 &328393215 stripped
@@ -1885,6 +1885,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1557741965443894, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 3}
+      propertyPath: m_Name
+      value: RFP_Acoustic_System_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4328033527015456, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.685
@@ -1920,10 +1924,6 @@ PrefabInstance:
     - target: {fileID: 4328033527015456, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1557741965443894, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 3}
-      propertyPath: m_Name
-      value: RFP_Acoustic_System_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10a4b7b1359186d449f593c3f853f7dc, type: 3}
@@ -1980,79 +1980,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 358821465}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &365470127
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.26
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: eb55217c3b4522a489f14b4014821b55, type: 2}
-    - target: {fileID: 9500000, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9500000, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
-      propertyPath: m_CullingMode
-      value: 2
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: a002d62ded2e7ab44a75f7ecb5654693, type: 3}
+--- !u!4 &365869755 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1493754511342954769}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &389317677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2116,6 +2049,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1966290377642824, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Bench_Side
+      objectReference: {fileID: 0}
     - target: {fileID: 4983226129233410, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.615
@@ -2159,10 +2096,6 @@ PrefabInstance:
     - target: {fileID: 4983226129233410, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1966290377642824, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Bench_Side
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
@@ -2324,6 +2257,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1073771096134606, guid: d347d24ae24134546924e5d62d18a270, type: 3}
+      propertyPath: m_Name
+      value: RFP_Armchair_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4819926000424390, guid: d347d24ae24134546924e5d62d18a270, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.983
@@ -2367,10 +2304,6 @@ PrefabInstance:
     - target: {fileID: 4819926000424390, guid: d347d24ae24134546924e5d62d18a270, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1073771096134606, guid: d347d24ae24134546924e5d62d18a270, type: 3}
-      propertyPath: m_Name
-      value: RFP_Armchair_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d347d24ae24134546924e5d62d18a270, type: 3}
@@ -2438,6 +2371,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1194389473328092, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Sofa_Vertical
+      objectReference: {fileID: 0}
     - target: {fileID: 4246507783268626, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.430006
@@ -2474,10 +2411,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
       objectReference: {fileID: 0}
-    - target: {fileID: 1194389473328092, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Sofa_Vertical
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
 --- !u!4 &480572030 stripped
@@ -2493,6 +2426,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1966290377642824, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Bench_Side
+      objectReference: {fileID: 0}
     - target: {fileID: 4983226129233410, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.13
@@ -2524,10 +2461,6 @@ PrefabInstance:
     - target: {fileID: 4983226129233410, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
       propertyPath: m_RootOrder
       value: 99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1966290377642824, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Bench_Side
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fbc45019eb4a66346a60487055ce0061, type: 3}
@@ -2885,6 +2818,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.2789996
@@ -2928,10 +2865,6 @@ PrefabInstance:
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
@@ -3046,6 +2979,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1195781256390606, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
+      propertyPath: m_Name
+      value: RFP_Kitchen_Cabinet_Down
+      objectReference: {fileID: 0}
     - target: {fileID: 4021165277474440, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.195
@@ -3077,10 +3014,6 @@ PrefabInstance:
     - target: {fileID: 4021165277474440, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
       propertyPath: m_RootOrder
       value: 166
-      objectReference: {fileID: 0}
-    - target: {fileID: 1195781256390606, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
-      propertyPath: m_Name
-      value: RFP_Kitchen_Cabinet_Down
       objectReference: {fileID: 0}
     - target: {fileID: 4251494595102388, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
       propertyPath: m_LocalRotation.x
@@ -3137,6 +3070,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.019
@@ -3181,10 +3118,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
 --- !u!4 &619801875 stripped
@@ -3200,6 +3133,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1529999
@@ -3244,10 +3181,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
 --- !u!4 &624555695 stripped
@@ -3263,6 +3196,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1268636657800604, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
+      propertyPath: m_Name
+      value: RFP_Kitchen_Cabinet_Up
+      objectReference: {fileID: 0}
     - target: {fileID: 4673545020077960, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1959996
@@ -3335,10 +3272,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1268636657800604, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
-      propertyPath: m_Name
-      value: RFP_Kitchen_Cabinet_Up
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
 --- !u!4 &628529986 stripped
@@ -3405,6 +3338,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.8149996
@@ -3448,10 +3385,6 @@ PrefabInstance:
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
@@ -3625,6 +3558,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1380472176649076, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4485020111080562, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.4850006
@@ -3668,10 +3605,6 @@ PrefabInstance:
     - target: {fileID: 4485020111080562, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1380472176649076, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 830cbf92a4739064d827c02442f2323e, type: 3}
@@ -3735,6 +3668,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.95
@@ -3779,10 +3716,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
 --- !u!4 &697754557 stripped
@@ -3798,6 +3731,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.939
@@ -3842,10 +3779,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
 --- !u!4 &710810557 stripped
@@ -3861,6 +3794,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.580999
@@ -3896,10 +3833,6 @@ PrefabInstance:
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 88.229004
-      objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
@@ -4026,6 +3959,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.763
@@ -4061,10 +3998,6 @@ PrefabInstance:
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
@@ -4440,6 +4373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.0220003
@@ -4475,10 +4412,6 @@ PrefabInstance:
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
@@ -4744,6 +4677,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1581218376242852, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_8
+      objectReference: {fileID: 0}
     - target: {fileID: 4061319341258778, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.3439994
@@ -4788,10 +4725,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1581218376242852, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
 --- !u!4 &915003871 stripped
@@ -4807,6 +4740,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.939
@@ -4850,10 +4787,6 @@ PrefabInstance:
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
@@ -4972,6 +4905,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9019997
@@ -5015,10 +4952,6 @@ PrefabInstance:
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
@@ -5086,6 +5019,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.3419993
@@ -5122,10 +5059,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -8.305
       objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
 --- !u!4 &1031847736 stripped
@@ -5141,6 +5074,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1195781256390606, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
+      propertyPath: m_Name
+      value: RFP_Kitchen_Cabinet_Down
+      objectReference: {fileID: 0}
     - target: {fileID: 4021165277474440, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.9971013
@@ -5173,10 +5110,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 93
       objectReference: {fileID: 0}
-    - target: {fileID: 1195781256390606, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
-      propertyPath: m_Name
-      value: RFP_Kitchen_Cabinet_Down
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcf06ec46d0005b4db19264b4f26b166, type: 3}
 --- !u!4 &1050263257 stripped
@@ -5192,6 +5125,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.75
@@ -5236,10 +5173,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
 --- !u!4 &1051044798 stripped
@@ -5255,6 +5188,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.2660007
@@ -5299,10 +5236,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
 --- !u!4 &1058850405 stripped
@@ -5318,6 +5251,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1221247941980460, guid: 35adc4c38b292794da4d30f9edd476dd, type: 3}
+      propertyPath: m_Name
+      value: RFP_Twist_Candlestick_5
+      objectReference: {fileID: 0}
     - target: {fileID: 4671288198555476, guid: 35adc4c38b292794da4d30f9edd476dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.568
@@ -5361,10 +5298,6 @@ PrefabInstance:
     - target: {fileID: 4671288198555476, guid: 35adc4c38b292794da4d30f9edd476dd, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1221247941980460, guid: 35adc4c38b292794da4d30f9edd476dd, type: 3}
-      propertyPath: m_Name
-      value: RFP_Twist_Candlestick_5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35adc4c38b292794da4d30f9edd476dd, type: 3}
@@ -5483,6 +5416,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4026057476649836, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.54
@@ -5519,10 +5456,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
 --- !u!4 &1152959545 stripped
@@ -5538,6 +5471,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1581218376242852, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_8
+      objectReference: {fileID: 0}
     - target: {fileID: 4061319341258778, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.7479997
@@ -5573,10 +5510,6 @@ PrefabInstance:
     - target: {fileID: 4061319341258778, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -271.752
-      objectReference: {fileID: 0}
-    - target: {fileID: 1581218376242852, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
@@ -5696,6 +5629,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1591941904930906, guid: 8b51d6c71e08538439e9cf437e26baad, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Bench_Angle
+      objectReference: {fileID: 0}
     - target: {fileID: 4058586550744084, guid: 8b51d6c71e08538439e9cf437e26baad, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.36
@@ -5732,10 +5669,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90.00001
       objectReference: {fileID: 0}
-    - target: {fileID: 1591941904930906, guid: 8b51d6c71e08538439e9cf437e26baad, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Bench_Angle
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b51d6c71e08538439e9cf437e26baad, type: 3}
 --- !u!4 &1189669536 stripped
@@ -5751,6 +5684,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1581218376242852, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_8
+      objectReference: {fileID: 0}
     - target: {fileID: 4061319341258778, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.0759997
@@ -5795,10 +5732,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1581218376242852, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06d823bc73e6e5e4f931c3f42db2b906, type: 3}
 --- !u!4 &1199288694 stripped
@@ -5814,6 +5747,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4026057476649836, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.008
@@ -5862,10 +5799,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1957976018148254, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b65ef34a17009fc4b9c6776307b0446e, type: 3}
 --- !u!4 &1211188208 stripped
@@ -5881,6 +5814,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.112999916
@@ -5924,10 +5861,6 @@ PrefabInstance:
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
@@ -6003,6 +5936,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4106527896434018, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.1619997
@@ -6039,10 +5976,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 7.7570004
       objectReference: {fileID: 0}
-    - target: {fileID: 1193804665522800, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04cc30b424fd1844890712af6f7fe514, type: 3}
 --- !u!4 &1239976381 stripped
@@ -6058,6 +5991,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1578233314806844, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chandelier_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4656910842398590, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.204
@@ -6094,10 +6031,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1578233314806844, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chandelier_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78d0443a3c14b6d4db9103d21b155498, type: 3}
 --- !u!4 &1276796672 stripped
@@ -6113,6 +6046,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8199995
@@ -6145,10 +6082,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 102
       objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
 --- !u!4 &1277193992 stripped
@@ -6164,6 +6097,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.541
@@ -6207,10 +6144,6 @@ PrefabInstance:
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
@@ -6278,6 +6211,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1218764783453542, guid: 8ab5bddaaa63e6c4eae6e54e2b4cbdc2, type: 3}
+      propertyPath: m_Name
+      value: RFP_Twist_Candlestick_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4490627321883130, guid: 8ab5bddaaa63e6c4eae6e54e2b4cbdc2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.93
@@ -6314,10 +6251,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -1.1470001
       objectReference: {fileID: 0}
-    - target: {fileID: 1218764783453542, guid: 8ab5bddaaa63e6c4eae6e54e2b4cbdc2, type: 3}
-      propertyPath: m_Name
-      value: RFP_Twist_Candlestick_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8ab5bddaaa63e6c4eae6e54e2b4cbdc2, type: 3}
 --- !u!4 &1294408492 stripped
@@ -6333,6 +6266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1604699191849480, guid: 9755affdab01d244c847c9ed27560876, type: 3}
+      propertyPath: m_Name
+      value: RFP_Candlestick
+      objectReference: {fileID: 0}
     - target: {fileID: 4826486944420944, guid: 9755affdab01d244c847c9ed27560876, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.95
@@ -6368,10 +6305,6 @@ PrefabInstance:
     - target: {fileID: 4826486944420944, guid: 9755affdab01d244c847c9ed27560876, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 30.000002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1604699191849480, guid: 9755affdab01d244c847c9ed27560876, type: 3}
-      propertyPath: m_Name
-      value: RFP_Candlestick
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9755affdab01d244c847c9ed27560876, type: 3}
@@ -6444,6 +6377,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.6119995
@@ -6480,10 +6417,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
       objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
 --- !u!4 &1330320297 stripped
@@ -6499,6 +6432,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.8590007
@@ -6542,10 +6479,6 @@ PrefabInstance:
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
@@ -6870,6 +6803,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1728117368571048, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
+      propertyPath: m_Name
+      value: RFP_Office_Table
+      objectReference: {fileID: 0}
     - target: {fileID: 4473781729276122, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.158
@@ -6914,10 +6851,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1728117368571048, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
-      propertyPath: m_Name
-      value: RFP_Office_Table
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
 --- !u!4 &1406499721 stripped
@@ -6933,6 +6866,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Sofa_Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 4770989052625818, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.7160068
@@ -6968,10 +6905,6 @@ PrefabInstance:
     - target: {fileID: 4770989052625818, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -90.00001
-      objectReference: {fileID: 0}
-    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Sofa_Horizontal
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
@@ -7131,6 +7064,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1855245009655978, guid: d4af06651d8d3584280c91256ee64bf9, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chandelier_4
+      objectReference: {fileID: 0}
     - target: {fileID: 4690622278500900, guid: d4af06651d8d3584280c91256ee64bf9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.547
@@ -7171,10 +7108,6 @@ PrefabInstance:
     - target: {fileID: 1993079101567690, guid: d4af06651d8d3584280c91256ee64bf9, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1855245009655978, guid: d4af06651d8d3584280c91256ee64bf9, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chandelier_4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4af06651d8d3584280c91256ee64bf9, type: 3}
@@ -7238,6 +7171,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1194389473328092, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Sofa_Vertical
+      objectReference: {fileID: 0}
     - target: {fileID: 4246507783268626, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9470043
@@ -7270,10 +7207,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 91
       objectReference: {fileID: 0}
-    - target: {fileID: 1194389473328092, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Sofa_Vertical
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec9bae6e89e0e741bfc3bbcc8d6accd, type: 3}
 --- !u!4 &1472172376 stripped
@@ -7289,6 +7222,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.7569993
@@ -7324,10 +7261,6 @@ PrefabInstance:
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
@@ -7564,6 +7497,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1579191195130184, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chandelier_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4568534766984928, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.877
@@ -7600,10 +7537,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1579191195130184, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chandelier_7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
 --- !u!4 &1518806607 stripped
@@ -7612,63 +7545,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1518806606}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1527843737 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100148, guid: a002d62ded2e7ab44a75f7ecb5654693,
-    type: 3}
-  m_PrefabInstance: {fileID: 365470127}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1527843738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527843737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88a93876edf66e949a590d7bf2e12d3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb: {fileID: 1527843740}
-  fwdforce: 5
-  swdforce: 5
-  originalRotationValue: {x: 0, y: 0, z: 0, w: 0}
---- !u!65 &1527843739
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527843737}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 100, y: 300, z: 1}
-  m_Center: {x: 0, y: 170, z: 0}
---- !u!54 &1527843740
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1527843737}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
---- !u!4 &1527843742 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400148, guid: a002d62ded2e7ab44a75f7ecb5654693,
-    type: 3}
-  m_PrefabInstance: {fileID: 365470127}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1529917059
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7676,6 +7552,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.601999
@@ -7720,10 +7600,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
 --- !u!4 &1529917060 stripped
@@ -7739,6 +7615,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1613722985377998, guid: a3a114b7ef17d1340a401ea95013f347, type: 3}
+      propertyPath: m_Name
+      value: RFP_Armchair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4603535129187214, guid: a3a114b7ef17d1340a401ea95013f347, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.069
@@ -7775,10 +7655,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -270
       objectReference: {fileID: 0}
-    - target: {fileID: 1613722985377998, guid: a3a114b7ef17d1340a401ea95013f347, type: 3}
-      propertyPath: m_Name
-      value: RFP_Armchair_3
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3a114b7ef17d1340a401ea95013f347, type: 3}
 --- !u!4 &1531747913 stripped
@@ -7794,6 +7670,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.8769999
@@ -7837,10 +7717,6 @@ PrefabInstance:
     - target: {fileID: 4697967456497354, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1491384738140120, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73ab2dbbaaae2ee4f83fa42dfc773471, type: 3}
@@ -8435,6 +8311,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1945872742168854, guid: 33d8bb24c3a6e6e40b1b004b27f18d34, type: 3}
+      propertyPath: m_Name
+      value: RFP_Dining_Table_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4065466404423258, guid: 33d8bb24c3a6e6e40b1b004b27f18d34, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.33
@@ -8467,10 +8347,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 150
       objectReference: {fileID: 0}
-    - target: {fileID: 1945872742168854, guid: 33d8bb24c3a6e6e40b1b004b27f18d34, type: 3}
-      propertyPath: m_Name
-      value: RFP_Dining_Table_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33d8bb24c3a6e6e40b1b004b27f18d34, type: 3}
 --- !u!4 &1672695400 stripped
@@ -8486,6 +8362,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1034716235269178, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4355059263382038, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.974
@@ -8537,10 +8417,6 @@ PrefabInstance:
     - target: {fileID: 1412192585575010, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1034716235269178, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
@@ -8608,6 +8484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Sofa_Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 4770989052625818, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.9480038
@@ -8640,10 +8520,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 92
       objectReference: {fileID: 0}
-    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Sofa_Horizontal
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
 --- !u!4 &1687816479 stripped
@@ -8659,6 +8535,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.6
@@ -8694,10 +8574,6 @@ PrefabInstance:
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 83.868004
-      objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
@@ -9010,7 +8886,7 @@ Transform:
   - {fileID: 495210486}
   - {fileID: 538795522}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1743849081
 PrefabInstance:
@@ -9019,6 +8895,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1268636657800604, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
+      propertyPath: m_Name
+      value: RFP_Kitchen_Cabinet_Up
+      objectReference: {fileID: 0}
     - target: {fileID: 4673545020077960, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.9981008
@@ -9050,10 +8930,6 @@ PrefabInstance:
     - target: {fileID: 4673545020077960, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
       propertyPath: m_RootOrder
       value: 94
-      objectReference: {fileID: 0}
-    - target: {fileID: 1268636657800604, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
-      propertyPath: m_Name
-      value: RFP_Kitchen_Cabinet_Up
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfe19d9e308fd5a4085266dbdb2316a9, type: 3}
@@ -9467,6 +9343,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1728117368571048, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
+      propertyPath: m_Name
+      value: RFP_Office_Table
+      objectReference: {fileID: 0}
     - target: {fileID: 4473781729276122, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.158
@@ -9510,10 +9390,6 @@ PrefabInstance:
     - target: {fileID: 4473781729276122, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1728117368571048, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
-      propertyPath: m_Name
-      value: RFP_Office_Table
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ee2f4822e69f8d45b4208dc7fd37f95, type: 3}
@@ -9640,6 +9516,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_3
+      objectReference: {fileID: 0}
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1859996
@@ -9683,10 +9563,6 @@ PrefabInstance:
     - target: {fileID: 4401592535890152, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1872655638982954, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8a4a15d25451a92469d66ee0e56d820e, type: 3}
@@ -9806,7 +9682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc3235b00df33f24c807ec117a321ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1527843742}
+  player: {fileID: 365869755}
   offset: {x: 0, y: 3, z: -5}
 --- !u!81 &1958621769
 AudioListener:
@@ -9916,6 +9792,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chair_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.059
@@ -9959,10 +9839,6 @@ PrefabInstance:
     - target: {fileID: 4180655180924822, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1067051383327214, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chair_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84173c970a3c0cd47826e6b4368dc903, type: 3}
@@ -10026,6 +9902,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1984184985514828, guid: 45085e3c88309294697d50880d3411fe, type: 3}
+      propertyPath: m_Name
+      value: RFAIPP_Couch_1
+      objectReference: {fileID: 0}
     - target: {fileID: 4158275379869886, guid: 45085e3c88309294697d50880d3411fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.440001
@@ -10062,10 +9942,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 180.00002
       objectReference: {fileID: 0}
-    - target: {fileID: 1984184985514828, guid: 45085e3c88309294697d50880d3411fe, type: 3}
-      propertyPath: m_Name
-      value: RFAIPP_Couch_1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45085e3c88309294697d50880d3411fe, type: 3}
 --- !u!4 &2023505071 stripped
@@ -10081,6 +9957,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1034716235269178, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4355059263382038, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.9739995
@@ -10132,10 +10012,6 @@ PrefabInstance:
     - target: {fileID: 1412192585575010, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1034716235269178, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
@@ -10301,6 +10177,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Sofa_Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 4770989052625818, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5450068
@@ -10333,10 +10213,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 126
       objectReference: {fileID: 0}
-    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Sofa_Horizontal
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
 --- !u!4 &2055700967 stripped
@@ -10352,6 +10228,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1579191195130184, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
+      propertyPath: m_Name
+      value: RFP_Chandelier_7
+      objectReference: {fileID: 0}
     - target: {fileID: 4568534766984928, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.93
@@ -10388,10 +10268,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1579191195130184, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
-      propertyPath: m_Name
-      value: RFP_Chandelier_7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ec7cbbb457362e4ca991988a91793b9, type: 3}
 --- !u!4 &2070865061 stripped
@@ -10407,6 +10283,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1034716235269178, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
+      propertyPath: m_Name
+      value: RFP_Sconce_2
+      objectReference: {fileID: 0}
     - target: {fileID: 4355059263382038, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.974
@@ -10458,10 +10338,6 @@ PrefabInstance:
     - target: {fileID: 1412192585575010, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1034716235269178, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
-      propertyPath: m_Name
-      value: RFP_Sconce_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a682cb398822fc64ea3c836f58421a01, type: 3}
@@ -10588,6 +10464,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340224551}
     m_Modifications:
+    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
+      propertyPath: m_Name
+      value: RFP_Modular_Sofa_Horizontal
+      objectReference: {fileID: 0}
     - target: {fileID: 4770989052625818, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.5450068
@@ -10620,10 +10500,6 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 127
       objectReference: {fileID: 0}
-    - target: {fileID: 1349494475060088, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
-      propertyPath: m_Name
-      value: RFP_Modular_Sofa_Horizontal
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 65d7a95a2bafba14eb74dfc0c1284f72, type: 3}
 --- !u!4 &2124284635 stripped
@@ -10632,3 +10508,72 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2124284634}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1493754511342954769
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1493754511036174218, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_Name
+      value: Walking
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1493754511036339114, guid: 66a4c7c7f91605348b144ffdb4f830c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 66a4c7c7f91605348b144ffdb4f830c2, type: 3}
