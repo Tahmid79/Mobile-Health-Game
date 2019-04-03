@@ -104,11 +104,7 @@ playerAudio.Play ();
    //     playerMovement.enabled = false;
      //   playerShooting.enabled = false;
   }  
-  void SwordSwing  (float volume = 1f) {
-    //Change the "SoundFileName" to the sound file name that you want to play that is located in the Assets/Resources folder.
-				playerAudio.PlayOneShot (slashClip,volume);
 
-		//playerAudio.volume = volume;
-	}
-      
+  
+  
 }

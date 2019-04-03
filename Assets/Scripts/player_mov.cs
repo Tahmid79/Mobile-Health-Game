@@ -7,7 +7,9 @@ public class player_mov : MonoBehaviour
     public int attackDamage = 1;               // The amount of health taken away per attack.
     float timer;
      public float timeBetweenAttacks = 1.5f;     // The time in seconds between each attack.
-    AudioSource playerAudio;                                    // Reference to the AudioSource component.
+    AudioSource playerAudio;   
+        public AudioClip slashClip;                                 // The audio clip to play when the player dies.
+                                 // Reference to the AudioSource component.
     public AudioClip footstepclip;                                 // The audio clip to play when the player dies.
 
     public Rigidbody rb;
@@ -94,13 +96,12 @@ public class player_mov : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Z))
         {
-                        anim.Play("Slash");
 
             if(distance<=8f){
             
            if(timer >=timeBetweenAttacks){
 
-            Attack();
+                        anim.Play("Slash");
 
             }
             }
@@ -131,6 +132,12 @@ public class player_mov : MonoBehaviour
 
 		//playerAudio.volume = volume;
 	}
-
+void SwordSwing  (float volume = 1f) {
+    //Change the "SoundFileName" to the sound file name that you want to play that is located in the Assets/Resources folder.
+				playerAudio.PlayOneShot (slashClip,volume);
+		//playerAudio.volume = volume;
+        Attack();
+	}
+      
 
 }

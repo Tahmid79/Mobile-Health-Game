@@ -59,17 +59,22 @@ public class Enemy_Controller : MonoBehaviour {
      //If the distance is smaller than the walkingDistance
         if(distance <= lookRadius && distance>distance_to_attack )
       {
-//Move the enemy towards the player with smoothdamp
+        
+           
+        //Move the enemy towards the player with smoothdamp
          transform.position = Vector3.SmoothDamp(transform.position, player.position, ref smoothVelocity, smoothTime);
             Eanim.Play("Mutant Run");
+        
+        
+        
         }else if(distance <= distance_to_attack)
         {     
            //    BackAway();  
           rb.velocity = new Vector3(0, 0, 0);
 
             if(timer >=timeBetweenAttacks){
+                    Eanim.Play("Mutant Swiping");
 
-            Attack();
 
             }
 
@@ -90,11 +95,15 @@ public class Enemy_Controller : MonoBehaviour {
        //  playerAudio.clip = slashClip;
        // playerAudio.Play ();
             // ... damage the player.
-                                    Eanim.Play("Mutant Swiping");
                                                 playerHealth.TakeDamage (attackDamage);
 
 
         
+    }
+     void DealDamage(){
+                timer = 0f;
+                playerHealth.TakeDamage (attackDamage);
+
     }
 
     private void OnDrawGizmosSelected()
@@ -107,5 +116,33 @@ public class Enemy_Controller : MonoBehaviour {
     {
         transform.Translate(Vector3.back * 4f * Time.deltaTime);
     }
+
+/* 
+    void randomize()
+	{
+
+		if (distance < 0.8f)
+		{
+			if (waitTime <= 0)
+			{
+				randomSpot = Random.Range(0, movespots.Length);
+				waitTime = start_Wait_time;
+				
+			}
+			else
+			{
+				waitTime -= Time.deltaTime;
+				
+			}
+
+		}
+
+
+
+	}
+*/
+
+
+
 
 }

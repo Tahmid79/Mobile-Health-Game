@@ -16,12 +16,15 @@ public class onScreen : MonoBehaviour {
     public float swdforce = 25f;
     public Quaternion originalRotationValue;
     public float rotation_speed = 80f;
-
+ private bool walkUp;
+    private bool walkLeft;
+    private bool walkRight;
+    private bool walkDown;
     Animator anim;
     Vector3 ip;
 	// Use this for initialization
 	void Start () {
-		button.onClick.AddListener(forward);
+	//	button.onClick.AddListener(forward);
 		 anim = GetComponent<Animator>();
         Enemy = GameObject.FindGameObjectWithTag ("Enemy");
         ip = transform.position;
@@ -30,7 +33,25 @@ public class onScreen : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (walkUp)
+        {
+            Vector3 dir = transform.rotation * Vector3.forward ;
+            rb.AddForce(dir * fwdforce *Time.deltaTime, ForceMode.VelocityChange) ;           
+            anim.Play("Running");
+			Debug.Log("Button Pressed Forward ");
+        }
+        else if (walkLeft)
+        {
+            //GetComponent<Rigidbody2D> ().AddForce (-Vector2.right * speed);
+        }
+        else if (walkRight)
+        {
+            //GetComponent<Rigidbody2D>().AddForce(Vector2.right * speed);
+        }
+        else if (walkDown)
+        {
+            //GetComponent<Rigidbody2D>().AddForce(-Vector2.up * speed);
+        }
 	}
 	public void forward(){
 
@@ -40,4 +61,51 @@ public class onScreen : MonoBehaviour {
 			Debug.Log("Button Pressed Forward ");
 
 	}
+      public void PlayerWalkUp(int value){
+        if (value == 1)
+        {
+            walkUp = true;
+        }
+        else
+        {
+            walkUp = false;
+        }
+ 
+    }
+ 
+    public void PlayerWalkLeft(int value){
+        if (value == 1)
+        {
+            walkLeft = true;
+        }
+        else
+        {
+            walkLeft = false;
+        }
+       
+    }
+ 
+    public void PlayerWalkRight(int value){
+        if (value == 1)
+        {
+            walkRight = true;
+        }
+        else
+        {
+            walkRight = false;
+        }
+       
+    }
+ 
+    public void PlayerWalkDown(int value){
+        if (value == 1)
+        {
+            walkDown = true;
+        }
+        else
+        {
+            walkDown = false;
+        }
+       
+    }
 }

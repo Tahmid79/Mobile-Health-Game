@@ -86,7 +86,7 @@ private string connectionString;
 			}
 		}
 	}
-	void  HealthCounterSlot_inc(){
+	public void  HealthCounterSlot_inc(){
 		int b,Health_potion_ID,Health_potion_count;
 	using (IDbConnection dbConnection = new SqliteConnection(connectionString))
 		{
