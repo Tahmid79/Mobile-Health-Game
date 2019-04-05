@@ -27,25 +27,30 @@ public class Enemy_Controller_U : MonoBehaviour {
 
     Transform target;
 
-   
-    // Use this for initialization
-    void Start () {
+
+	/*//////////////////////////////////////////////////////////////*/
+
+	
+	public Transform player;        //The target player
+
+
+	public float smoothTime = 2f;       //In what time will the enemy complete the journey between its position and the players position
+									
+	private Vector3 smoothVelocity = Vector3.zero;      //Vector3 used to store the velocity of the enemy
+
+
+	// Use this for initialization
+	void Start () {
         target = PlayerManager.instance.player.transform;
         Walking = GameObject.FindGameObjectWithTag ("Player");
-        playerHealth = Walking.GetComponent <PlayerHealth> ();
+        playerHealth = PlayerManager.instance.player.GetComponent <PlayerHealth> ();
         Enemy  =  GameObject.FindGameObjectWithTag ("Enemy");
         Eanim = Enemy.GetComponent<Animator> ();     
         playerAudio = Walking.GetComponent <AudioSource> ();
 
 
 	}
-//The target player
- public Transform player;
- 
- //In what time will the enemy complete the journey between its position and the players position
- public float smoothTime = 2f;
- //Vector3 used to store the velocity of the enemy
- private Vector3 smoothVelocity = Vector3.zero;
+
 
 
  //Call every frame
@@ -74,7 +79,7 @@ public class Enemy_Controller_U : MonoBehaviour {
 
             if(timer >=timeBetweenAttacks){
                     Eanim.Play("Mutant Swiping");
-
+					Attack();
 
             }
 
@@ -102,7 +107,7 @@ public class Enemy_Controller_U : MonoBehaviour {
     }
      void DealDamage(){
                 timer = 0f;
-                playerHealth.TakeDamage (attackDamage);
+                //playerHealth.TakeDamage (attackDamage);
 
     }
 

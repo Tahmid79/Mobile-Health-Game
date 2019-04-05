@@ -23,6 +23,7 @@ public class Playerfight : MonoBehaviour
         ip = transform.position;
         originalRotationValue = transform.rotation; // save the initial rotation
 		anim.Play("Idle");
+	
 	}
 
     // Update is called once per frame
