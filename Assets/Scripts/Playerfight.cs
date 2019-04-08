@@ -13,17 +13,26 @@ public class Playerfight : MonoBehaviour
 
     Animator anim;
     Vector3 ip;
+	public EnemyHealth enemyHealth;
+	public float timeBetweenAttacks = 2f;     // The time in seconds between each attack.
+	public int attackDamage = 1;
+
+	public GameObject Enemy;
+	 float enemy_distance;
 
 
-    // Use this for initialization
-    void Start()
+	// Use this for initialization
+	void Start()
     {
 
         anim = GetComponent<Animator>();
         ip = transform.position;
         originalRotationValue = transform.rotation; // save the initial rotation
 		anim.Play("Idle");
-	
+
+		Enemy = GameObject.FindGameObjectWithTag("Enemy");
+		enemyHealth = Enemy.GetComponent<EnemyHealth>();
+
 	}
 
     // Update is called once per frame
@@ -97,22 +106,43 @@ public class Playerfight : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyUp("a") || Input.GetKeyUp("s") || Input.GetKeyUp("d") || Input.GetKeyUp("w"))
-        {
+		enemy_distance = Vector3.Distance(Enemy.transform.position, transform.position);
 
-            anim.Play("Idle");
-            rb.velocity = new Vector3(0, 0, 0);
+		KeyRelease();
+		Attack();
+
+		Debug.Log(enemy_distance);
+	
+	}
+
+
+	void KeyRelease()
+	{
+
+		if (Input.GetKeyUp("a") || Input.GetKeyUp("s") || Input.GetKeyUp("d") || Input.GetKeyUp("w"))
+		{
+
+			anim.Play("Idle");
+			rb.velocity = new Vector3(0, 0, 0);
 			//Cam.transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 3f*Time.deltaTime);
 		}
+	}
 
-        if (Input.GetKey(KeyCode.Z))
-        {
-            anim.Play("Take 001");
-        }
+	void Attack()
+	{
 
-		
+		if (Input.GetKey(KeyCode.Z))
+		{
+			anim.Play("Take 001");
 
+			if (enemy_distance < 35f)
+			{
+				enemyHealth.TakeDamage(attackDamage);
+			}
+		}
 
 	}
+
+
 
 }
