@@ -9,18 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: e7f8e7fdf36861e409b65f108ea65232
   - enabled: 0
-    path: Assets/NvMsh/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/MaterialUI/QuestionsScene.unity
     guid: 098dffa5c4addbe45bd97262b5dbbfe7
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 05ec21d46f43a374c82e5be6cc39dcda
-  - enabled: 1
-    path: Assets/Scenes/Main Stage 1.unity
-    guid: e40d6ed47e5bee842b3eae24d53d51e7
-  - enabled: 1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Boss_Env.unity
     guid: d62c69d5cec951142b652977f1f15a51
   - enabled: 1
