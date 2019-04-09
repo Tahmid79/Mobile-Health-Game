@@ -148,20 +148,13 @@ public class Enemy_Controller_2 : MonoBehaviour
 			{
 				randomSpot = Random.Range(0, movespots.Length);
 				waitTime = start_Wait_time;
-
 			}
 			else
 			{
-				
 				waitTime -= Time.deltaTime;
 
-
 			}
-
-
-
 		}
-
 
 	}
 }

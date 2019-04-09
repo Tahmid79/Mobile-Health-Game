@@ -39,66 +39,11 @@ public class Playerfight : MonoBehaviour
     void FixedUpdate()
     {
 
-        if (Input.GetKey("d"))
-        {
-			//transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
-			//float maxangle = 90f;
-			//rb.AddForce(swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-			
-			//anim.Play("Running");
-			transform.Rotate(Vector3.up * 80f * Time.deltaTime);
-			//anim.Play("Idle");
-
-			/*
-			if (transform.eulerAngles.magnitude < maxangle)
-			{
-				transform.Rotate(Vector3.up * 90f);
-				//Cam.transform.Rotate(Vector3.up, 20f * Time.deltaTime);
-			}
-			*/
-		}
-
-
-
-        if (Input.GetKey("a"))
-        {
-
-            //transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
-            //float maxangle = 90f;
-            //rb.AddForce(-swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-            //anim.Play("Idle");
-			transform.Rotate(-Vector3.up * 80f * Time.deltaTime);
-			/*
-			if (transform.eulerAngles.magnitude < maxangle)
-                transform.Rotate(-Vector3.up * 90f);
-			*/
-		}
-
-
-        if (Input.GetKey("w"))
-        {
-            //transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);           
-             Vector3 dir = transform.rotation * Vector3.forward ;
-            //rb.AddForce(0, 0, fwdforce * Time.deltaTime, ForceMode.VelocityChange);    
-            rb.AddForce(dir * fwdforce *Time.deltaTime, ForceMode.VelocityChange) ;           
-            anim.Play("Running");
-        }
-
-
-        if (Input.GetKey("s"))
-        {
-
-			Vector3 dir = transform.rotation * Vector3.back;
-			rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
-			//transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
-			//float maxangle = 180f;
-			//rb.AddForce(0, 0, -fwdforce * Time.deltaTime, ForceMode.VelocityChange);
-			anim.Play("Running");		
-			/*
-            if (transform.eulerAngles.magnitude < maxangle)
-                transform.Rotate(Vector3.up * 80f * Time.deltaTime);
-			*/
-        }
+		rot_rt();
+		rot_lft();
+		mov_fwd();
+		mov_bck();
+       
 
 		rb.AddForce(Physics.gravity * rb.mass * 3f); //gravity
 
@@ -111,24 +56,21 @@ public class Playerfight : MonoBehaviour
 		KeyRelease();
 		Attack();
 
-		Debug.Log(enemy_distance);
+		//Debug.Log(enemy_distance);
 	
 	}
 
 
-	void KeyRelease()
+	public void KeyRelease()
 	{
 
 		if (Input.GetKeyUp("a") || Input.GetKeyUp("s") || Input.GetKeyUp("d") || Input.GetKeyUp("w"))
 		{
-
-			anim.Play("Idle");
-			rb.velocity = new Vector3(0, 0, 0);
-			//Cam.transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 3f*Time.deltaTime);
+			StopMoving();
 		}
 	}
 
-	void Attack()
+	public void Attack()
 	{
 
 		if (Input.GetKey(KeyCode.Z))
@@ -143,6 +85,85 @@ public class Playerfight : MonoBehaviour
 
 	}
 
+	public void rot_lft()
+	{
+		if (Input.GetKey("a"))
+		{
+			transform.Rotate(-Vector3.up * 80f * Time.deltaTime);
+		}
+	}
+
+	public void rot_rt()
+	{
+		if (Input.GetKey("d"))
+		{
+			transform.Rotate(Vector3.up * 80f * Time.deltaTime);
+		}
+	}
+
+	public void mov_fwd()
+	{
+		if (Input.GetKey("w"))
+		{
+			Vector3 dir = transform.rotation * Vector3.forward;
+			rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
+			anim.Play("Running");
+		}
+	}
+
+	public void mov_bck()
+	{
+		if (Input.GetKey("s"))
+		{
+			Vector3 dir = transform.rotation * Vector3.back;
+			rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
+			anim.Play("Running");
+		}
+	}
+
+	public void StopMoving()
+	{
+		anim.Play("Idle");
+		rb.velocity = new Vector3(0, 0, 0);
+	}
 
 
+	/// ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+	//Without Keyboard Input
+
+
+	public void btn_rot_lft()
+	{		
+		transform.Rotate(-Vector3.up * 10f );	
+	}
+
+	public void btn_rot_rt()
+	{	
+		transform.Rotate(Vector3.up * 10f );	
+	}
+
+	public void btn_mov_fwd()
+	{	
+			Vector3 dir = transform.rotation * Vector3.forward;
+			rb.AddForce(dir * fwdforce, ForceMode.VelocityChange);
+			anim.Play("Running");	
+	}
+
+	public void btn_mov_bck()
+	{
+			Vector3 dir = transform.rotation * Vector3.back;
+			rb.AddForce(dir * fwdforce, ForceMode.VelocityChange);
+			anim.Play("Running");	
+	}
+
+	public void btn_attack()
+	{	
+			anim.Play("Take 001");
+
+			if (enemy_distance < 35f)
+			{
+				enemyHealth.TakeDamage(attackDamage);
+			}
+	}
 }

@@ -39,7 +39,6 @@ public class Enmy_Cntrllr : MonoBehaviour {
 	float timer;
 
 
-
 	Transform target;
 	NavMeshAgent agent;
 
@@ -80,7 +79,6 @@ public class Enmy_Cntrllr : MonoBehaviour {
 		randomize();
 
 		
-
 		if (distance <= lookRadius && waiting==false )   
 		{
 			MoveTowards();
@@ -97,8 +95,6 @@ public class Enmy_Cntrllr : MonoBehaviour {
 		{
 			Eanim.Play("Mutant Idle");
 		}
-
-
 
 	}
 	
@@ -166,10 +162,8 @@ public class Enmy_Cntrllr : MonoBehaviour {
 				waitTime -= Time.deltaTime;
 				waiting = true;	
 			}
-
+		
 		}
-
-
 
 	}
 
@@ -178,7 +172,6 @@ public class Enmy_Cntrllr : MonoBehaviour {
 		timer += Time.deltaTime;
 
 		player_distance = Vector3.Distance(target.position, transform.position);
-
 		distance = Vector3.Distance(movespots[randomSpot].position, transform.position);
 
 		rb.AddForce(Physics.gravity * rb.mass * 3f); //gravity
