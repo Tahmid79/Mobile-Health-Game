@@ -7855,7 +7855,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 8325246800479836747}
-          m_MethodName: btn_mov_bck
+          m_MethodName: set_bck_true
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -7872,7 +7872,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 8325246800479836747}
-          m_MethodName: StopMoving
+          m_MethodName: set_bck_false
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -10531,12 +10531,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Delegates:
-  - eventID: 2
+  - eventID: 3
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 8325246800479836747}
-          m_MethodName: btn_mov_fwd
+          m_MethodName: set_fwd_false
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -10548,12 +10548,12 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  - eventID: 3
+  - eventID: 2
     callback:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 8325246800479836747}
-          m_MethodName: StopMoving
+          m_MethodName: set_fwd_true
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
