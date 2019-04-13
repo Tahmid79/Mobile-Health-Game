@@ -5,7 +5,7 @@ using UnityEngine;
 public class Playerfight : MonoBehaviour
 {
 
-     Rigidbody rb;
+    public Rigidbody rb;
     public float fwdforce = 5f;
     public float swdforce = 5f;
     public Quaternion originalRotationValue;
@@ -20,6 +20,8 @@ public class Playerfight : MonoBehaviour
 	public GameObject Enemy;
 	 float enemy_distance;
 
+	public bool fwd_hold;
+	public bool bck_hold;
 
 	// Use this for initialization
 	void Start()
@@ -33,7 +35,8 @@ public class Playerfight : MonoBehaviour
 		Enemy = GameObject.FindGameObjectWithTag("Enemy");
 		enemyHealth = Enemy.GetComponent<EnemyHealth>();
 
-		rb = GetComponent<Rigidbody>() ;
+		fwd_hold = false;
+		bck_hold = false;
 
 	}
 
@@ -45,7 +48,10 @@ public class Playerfight : MonoBehaviour
 		rot_lft();
 		mov_fwd();
 		mov_bck();
-       
+
+		button_press();
+
+
 
 		rb.AddForce(Physics.gravity * rb.mass * 3f); //gravity
 
@@ -105,7 +111,7 @@ public class Playerfight : MonoBehaviour
 
 	public void mov_fwd()
 	{
-		if (Input.GetKey("w"))
+		if (Input.GetKey("w") )
 		{
 			Vector3 dir = transform.rotation * Vector3.forward;
 			rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
@@ -146,26 +152,66 @@ public class Playerfight : MonoBehaviour
 	}
 
 	public void btn_mov_fwd()
-	{	
+	{		
 			Vector3 dir = transform.rotation * Vector3.forward;
-			rb.AddForce(dir * fwdforce, ForceMode.VelocityChange);
+			rb.AddForce(dir * fwdforce * Time.deltaTime  , ForceMode.VelocityChange);
 			anim.Play("Running");	
 	}
 
 	public void btn_mov_bck()
 	{
 			Vector3 dir = transform.rotation * Vector3.back;
-			rb.AddForce(dir * fwdforce, ForceMode.VelocityChange);
+			rb.AddForce(dir * fwdforce * Time.deltaTime , ForceMode.VelocityChange);
 			anim.Play("Running");	
 	}
 
 	public void btn_attack()
 	{	
-			anim.Play("Slash");
+			anim.Play("Take 001");
 
 			if (enemy_distance < 35f)
 			{
 				enemyHealth.TakeDamage(attackDamage);
 			}
 	}
+
+	public void set_fwd_true()
+	{
+		fwd_hold = true;
+	}
+
+	public void set_fwd_false()
+	{
+		fwd_hold = false;
+		StopMoving();
+	}
+
+	public void set_bck_true()
+	{
+		bck_hold = true;
+	}
+
+	public void set_bck_false()
+	{
+		bck_hold = false;
+		StopMoving();
+	}
+
+
+	public void button_press()
+	{
+		if (fwd_hold)
+		{
+			btn_mov_fwd();
+		}
+
+		if (bck_hold)
+		{
+			btn_mov_bck();
+		}
+
+	}
+	
+
+
 }
