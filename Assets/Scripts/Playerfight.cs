@@ -5,67 +5,61 @@ using UnityEngine;
 public class Playerfight : MonoBehaviour
 {
 
-	public Rigidbody rb;
-	public float fwdforce = 5f;
-	public float swdforce = 5f;
-	public Quaternion originalRotationValue;
+     Rigidbody rb;
+    public float fwdforce = 5f;
+    public float swdforce = 5f;
+    public Quaternion originalRotationValue;
 	public GameObject Cam;
 
-	Animator anim;
-	Vector3 ip;
+    Animator anim;
+    Vector3 ip;
 	public EnemyHealth enemyHealth;
 	public float timeBetweenAttacks = 2f;     // The time in seconds between each attack.
 	public int attackDamage = 1;
 
 	public GameObject Enemy;
-	float enemy_distance;
+	 float enemy_distance;
 
-	public bool fwd_hold;
-	public bool bck_hold;
 
 	// Use this for initialization
 	void Start()
-	{
+    {
 
-		anim = GetComponent<Animator>();
-		ip = transform.position;
-		originalRotationValue = transform.rotation; // save the initial rotation
+        anim = GetComponent<Animator>();
+        ip = transform.position;
+        originalRotationValue = transform.rotation; // save the initial rotation
 		anim.Play("Idle");
 
 		Enemy = GameObject.FindGameObjectWithTag("Enemy");
 		enemyHealth = Enemy.GetComponent<EnemyHealth>();
 
-		fwd_hold = false;
-		bck_hold = false;
+		rb = GetComponent<Rigidbody>() ;
 
 	}
 
-	// Update is called once per frame
-	void FixedUpdate()
-	{
+    // Update is called once per frame
+    void FixedUpdate()
+    {
 
 		rot_rt();
 		rot_lft();
 		mov_fwd();
 		mov_bck();
-
-		button_press();
-
-
+       
 
 		rb.AddForce(Physics.gravity * rb.mass * 3f); //gravity
 
 	}
 
-	void Update()
-	{
+    void Update()
+    {
 		enemy_distance = Vector3.Distance(Enemy.transform.position, transform.position);
 
 		KeyRelease();
 		Attack();
 
 		//Debug.Log(enemy_distance);
-
+	
 	}
 
 
@@ -83,7 +77,7 @@ public class Playerfight : MonoBehaviour
 
 		if (Input.GetKey(KeyCode.Z))
 		{
-			anim.Play("Slash");
+			anim.Play("Take 001");
 
 			if (enemy_distance < 35f)
 			{
@@ -142,77 +136,36 @@ public class Playerfight : MonoBehaviour
 
 
 	public void btn_rot_lft()
-	{
-		transform.Rotate(-Vector3.up * 10f);
+	{		
+		transform.Rotate(-Vector3.up * 10f );	
 	}
 
 	public void btn_rot_rt()
-	{
-		transform.Rotate(Vector3.up * 10f);
+	{	
+		transform.Rotate(Vector3.up * 10f );	
 	}
 
 	public void btn_mov_fwd()
-	{
-		Vector3 dir = transform.rotation * Vector3.forward;
-		rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
-		anim.Play("Running");
+	{	
+			Vector3 dir = transform.rotation * Vector3.forward;
+			rb.AddForce(dir * fwdforce, ForceMode.VelocityChange);
+			anim.Play("Running");	
 	}
 
 	public void btn_mov_bck()
 	{
-		Vector3 dir = transform.rotation * Vector3.back;
-		rb.AddForce(dir * fwdforce * Time.deltaTime, ForceMode.VelocityChange);
-		anim.Play("Running");
+			Vector3 dir = transform.rotation * Vector3.back;
+			rb.AddForce(dir * fwdforce, ForceMode.VelocityChange);
+			anim.Play("Running");	
 	}
 
 	public void btn_attack()
-	{
-		anim.Play("Slash");
+	{	
+			anim.Play("Slash");
 
-		if (enemy_distance < 10f)
-		{
-			enemyHealth.TakeDamage(attackDamage);
-		}
+			if (enemy_distance < 35f)
+			{
+				enemyHealth.TakeDamage(attackDamage);
+			}
 	}
-
-	public void set_fwd_true()
-	{
-		fwd_hold = true;
-	}
-
-	public void set_fwd_false()
-	{
-		fwd_hold = false;
-		StopMoving();
-	}
-
-	public void set_bck_true()
-	{
-		bck_hold = true;
-	}
-
-	public void set_bck_false()
-	{
-		bck_hold = false;
-		StopMoving();
-	}
-
-	///////////////////////////////////////////////////////
-
-	public void button_press()
-	{
-		if (fwd_hold)
-		{
-			btn_mov_fwd();
-		}
-
-		if (bck_hold)
-		{
-			btn_mov_bck();
-		}
-
-	}
-
-
-
 }

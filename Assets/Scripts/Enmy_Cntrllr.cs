@@ -149,7 +149,7 @@ public class Enmy_Cntrllr : MonoBehaviour {
 	void randomize()
 	{
 
-		if (distance < 2.8f)
+		if (distance < 1.8f)
 		{
 			if (waitTime <= 0)
 			{
