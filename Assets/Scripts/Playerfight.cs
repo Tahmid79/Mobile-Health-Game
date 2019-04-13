@@ -83,9 +83,9 @@ public class Playerfight : MonoBehaviour
 
 		if (Input.GetKey(KeyCode.Z))
 		{
-			anim.Play("Take 001");
+			anim.Play("Slash");
 
-			if (enemy_distance < 35f)
+			if (enemy_distance < 8f)
 			{
 				enemyHealth.TakeDamage(attackDamage);
 			}
@@ -167,9 +167,9 @@ public class Playerfight : MonoBehaviour
 
 	public void btn_attack()
 	{	
-			anim.Play("Take 001");
+			anim.Play("Slash");
 
-			if (enemy_distance < 35f)
+			if (enemy_distance < 8f)
 			{
 				enemyHealth.TakeDamage(attackDamage);
 			}

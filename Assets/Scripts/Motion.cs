@@ -55,14 +55,14 @@ public class Motion : MonoBehaviour {
 
         if (Input.GetKey("a"))
         {
-          
-            transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
+
+			transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
             float maxangle = 90f;
             rb.AddForce(-swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
             anim.Play("Take 001");
             if (transform.eulerAngles.magnitude < maxangle)
-                transform.Rotate(-Vector3.up * 90f);
 
+				transform.Rotate(-Vector3.up * 90f);
         }
 
 
@@ -76,7 +76,6 @@ public class Motion : MonoBehaviour {
 
         if (Input.GetKey("s"))
         {
-
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
 
             float maxangle = 180f;
@@ -93,8 +92,7 @@ public class Motion : MonoBehaviour {
     void Update()
     {
         if (Input.GetKeyUp("a") || Input.GetKeyUp("s") || Input.GetKeyUp("d") || Input.GetKeyUp("w"))
-        {
-
+		{ 
             anim.Play("Idle");
             rb.velocity = new Vector3(0, 0, 0);
         }
