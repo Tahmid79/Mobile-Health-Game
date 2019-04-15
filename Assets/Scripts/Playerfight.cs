@@ -143,12 +143,12 @@ public class Playerfight : MonoBehaviour
 
 	public void btn_rot_lft()
 	{		
-		transform.Rotate(-Vector3.up * 10f );	
+		transform.Rotate(-Vector3.up * 5f );	
 	}
 
 	public void btn_rot_rt()
 	{	
-		transform.Rotate(Vector3.up * 10f );	
+		transform.Rotate(Vector3.up * 5f );	
 	}
 
 	public void btn_mov_fwd()
