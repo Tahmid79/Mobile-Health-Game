@@ -4,6 +4,8 @@ using System.Collections;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public GameObject win;
+    Winmenue winui;
     public int startingHealth = 100;                            // The amount of health the player starts the game with.
     public int currentHealth;                                   // The current health the player has.
     public Slider healthSlider;                                 // Reference to the UI's health bar.
@@ -23,6 +25,7 @@ public class EnemyHealth : MonoBehaviour
     {
         // Setting up the references.
         anim = GetComponent <Animator> ();
+        winui = win.GetComponent <Winmenue> ();
     //    playerAudio = GetComponent <AudioSource> ();
      //   playerMovement = GetComponent <PlayerMovement> ();
        // playerShooting = GetComponentInChildren <PlayerShooting> ();
@@ -80,18 +83,11 @@ public class EnemyHealth : MonoBehaviour
         // Set the death flag so this function won't be called again.
        isDead = true;
 
-        // Turn off any remaining shooting effects.
-   //     playerShooting.DisableEffects ();
-
+     
         // Tell the animator that the player is dead.Current graphic doesnt have a a ' die ' animation 
             anim.Play("death");
+            winui.dispWin();
 
-        // Set the audiosource to play the death clip and play it (this will stop the hurt sound from playing).
-    //    playerAudio.clip = deathClip;
-//playerAudio.Play ();
-
-        // Turn off the movement and shooting scripts.
-      // playerMovement.enabled = false;
-     //   playerShooting.enabled = false;
+      
   }       
 }
