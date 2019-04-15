@@ -9,6 +9,8 @@ public class Tch : MonoBehaviour
 	 Vector2 startPos;
 	 Vector2 direction;
 
+	Touch touch;
+
 
 	void Start()
 	{
@@ -19,8 +21,14 @@ public class Tch : MonoBehaviour
 	{
 		if (Input.touchCount > 0)
 		{
-			Debug.Log("Touch Detected");
-			Touch touch = Input.GetTouch(0);
+
+			//Debug.Log("Touch Detected");
+			 touch = Input.GetTouch(0);
+		
+			if(Input.touchCount == 2)
+				 touch = Input.GetTouch(1);
+			
+			
 			Vector3 touch_pos = cam.ScreenToWorldPoint(touch.position);
 
 			switch (touch.phase)
@@ -35,8 +43,18 @@ public class Tch : MonoBehaviour
 				//Determine if the touch is a moving touch
 				case TouchPhase.Moved:
 					// Determine direction by comparing the current touch position with the initial one
-					Debug.Log("Touch Moving");
+					//Debug.Log("Touch Moving");
 					direction = touch.position - startPos;
+
+					if (direction.x > 0)
+					{
+						startPos.x = touch.position.x - 0.5f;
+					}
+
+					if (direction.x < 0)
+					{
+						startPos.x = touch.position.x + 0.5f;
+					}
 
 					dir_det();
 					
