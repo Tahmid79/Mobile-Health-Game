@@ -6,31 +6,48 @@ using UnityEngine.SceneManagement;
 public class OnTriggerLoadLevelV2 : MonoBehaviour
 {
 
-    public GameObject enterText;
-    public string levelToLoad;
+    public GameObject[]  BAttlePrompt ;
+
+     GameObject[]  Prompt ;
+
+
 
     void Start()
     {
-        enterText.SetActive(false);
+      Prompt= GameObject.FindGameObjectsWithTag("prompt");
+            foreach(GameObject g in BAttlePrompt){
+			g.SetActive(false);
+		}        
     }
 
     // Update is called once per frame
-    void OnTriggerStay(Collider plyr)
+    void OnTriggerEnter(Collider plyr)
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(true);
-            if (Input.GetButtonDown("Use"))
-            {
-                SceneManager.LoadScene(levelToLoad);
-            }
+            foreach(GameObject g in Prompt){
+			g.SetActive(true);
+		}
+              foreach(GameObject g in BAttlePrompt){
+			g.SetActive(true);
+		}
+           
         }
     }
-    void OnTriggerExit(Collider plyr)
+    public void OnTriggerExit(Collider plyr)
     {
         if (plyr.gameObject.tag == "Player")
         {
-            enterText.SetActive(false);
-        }
+  foreach(GameObject g in BAttlePrompt){
+			g.SetActive(false);
+		}       
+         }
+    }
+    public void hideui(){
+        {
+  foreach(GameObject g in Prompt){
+			g.SetActive(false);
+		} 
+    }
     }
 }

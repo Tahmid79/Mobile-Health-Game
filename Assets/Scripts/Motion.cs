@@ -45,7 +45,7 @@ public class Motion : MonoBehaviour {
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
             float maxangle = 90f;
             rb.AddForce(swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-            anim.Play("Take 001");
+            anim.Play("Running");
             if (transform.eulerAngles.magnitude < maxangle)
                 transform.Rotate(Vector3.up * 90f);
 
@@ -59,7 +59,7 @@ public class Motion : MonoBehaviour {
 			transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
             float maxangle = 90f;
             rb.AddForce(-swdforce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
-            anim.Play("Take 001");
+            anim.Play("Running");
             if (transform.eulerAngles.magnitude < maxangle)
 
 				transform.Rotate(-Vector3.up * 90f);
@@ -70,7 +70,7 @@ public class Motion : MonoBehaviour {
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
             rb.AddForce(0, 0, fwdforce*Time.deltaTime, ForceMode.VelocityChange);
-            anim.Play("Take 001");
+            anim.Play("Running");
         }
 
 
@@ -80,7 +80,7 @@ public class Motion : MonoBehaviour {
 
             float maxangle = 180f;
             rb.AddForce(0, 0, -fwdforce * Time.deltaTime, ForceMode.VelocityChange);
-            anim.Play("Take 001");
+            anim.Play("Running");
 
             if (transform.eulerAngles.magnitude < maxangle)
                 transform.Rotate(Vector3.up * 180f);
@@ -93,7 +93,7 @@ public class Motion : MonoBehaviour {
     {
         if (Input.GetKeyUp("a") || Input.GetKeyUp("s") || Input.GetKeyUp("d") || Input.GetKeyUp("w"))
 		{ 
-            anim.Play("Idle");
+          //  anim.Play("Idle");
             rb.velocity = new Vector3(0, 0, 0);
         }
     }
