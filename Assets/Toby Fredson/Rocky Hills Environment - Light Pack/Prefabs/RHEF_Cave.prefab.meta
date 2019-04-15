@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e318266f60803d548a4b409b52b39d8d
+guid: 0992c2f40077ec240ab6a44abfb1f21e
 labels:
 - cave
 - cliff
@@ -9,9 +9,9 @@ labels:
 - rocks
 - smalldetails
 - stones
-timeCreated: 1493470242
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: prefabs
   assetBundleVariant: 

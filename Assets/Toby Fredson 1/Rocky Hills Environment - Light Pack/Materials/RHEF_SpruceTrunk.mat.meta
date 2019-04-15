@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7fe326e3e678744aa884039f16d78ea
+guid: 83b0f0b8e77358142a6f8b9ec49843b3
 labels:
 - bark
 - cliff
@@ -14,9 +14,9 @@ labels:
 - stones
 - tree
 - trunk
-timeCreated: 1493848633
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: materials
   assetBundleVariant: 

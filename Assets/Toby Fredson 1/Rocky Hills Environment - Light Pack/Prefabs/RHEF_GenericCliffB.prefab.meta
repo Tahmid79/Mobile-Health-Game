@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc
+guid: dedd7c418031f2a4e8ec472d00a3a63d
 labels:
 - cliff
 - dirt
@@ -8,9 +8,9 @@ labels:
 - rocks
 - smalldetails
 - stones
-timeCreated: 1493480766
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: prefabs
   assetBundleVariant: 

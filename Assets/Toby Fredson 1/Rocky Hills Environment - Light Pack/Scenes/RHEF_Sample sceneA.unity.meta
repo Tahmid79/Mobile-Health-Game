@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f685d36e855472478779cab3f607b47
+guid: 5efbae5a8fecb664eab4686526201e85
 labels:
 - Scenes
 - cave
@@ -7,9 +7,8 @@ labels:
 - pine
 - spruce
 - tree
-timeCreated: 1493509366
-licenseType: Store
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: scenes
   assetBundleVariant: 

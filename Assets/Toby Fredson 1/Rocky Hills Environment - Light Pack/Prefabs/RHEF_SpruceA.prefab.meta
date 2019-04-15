@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: ddd082fb4672f6643be6891e17a84358
+guid: c332ca1e098b0b64db9c6635b916a444
 labels:
 - bark
 - pine
 - prefabs
 - spruce
 - tree
-timeCreated: 1493422043
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: prefabs
   assetBundleVariant: 

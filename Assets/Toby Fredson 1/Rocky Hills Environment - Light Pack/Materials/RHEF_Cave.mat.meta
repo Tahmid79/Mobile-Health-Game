@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a1ecfe9351629e545834c8caa2156f46
+guid: a5ad9f18908b68b41a096fdb4b4d10d4
 labels:
 - cave
 - cliff
@@ -10,9 +10,9 @@ labels:
 - rocks
 - smalldetails
 - stones
-timeCreated: 1493470359
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: materials
   assetBundleVariant: 

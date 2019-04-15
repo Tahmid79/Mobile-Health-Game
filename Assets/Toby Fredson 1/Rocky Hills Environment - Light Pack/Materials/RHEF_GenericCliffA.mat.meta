@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 478e0b09975d17c428b33b74656eba2e
+guid: 3f8b169083a0a2d42a0af8beaa0453aa
 labels:
 - cliff
 - dirt
@@ -9,9 +9,9 @@ labels:
 - rocks
 - smalldetails
 - stones
-timeCreated: 1493424972
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: materials
   assetBundleVariant: 

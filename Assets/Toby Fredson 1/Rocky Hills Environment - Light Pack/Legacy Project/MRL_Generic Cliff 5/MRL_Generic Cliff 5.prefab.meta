@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d6dc584291af5db48985299ab4f18d73
+guid: c6319c96c7af2a04ab6a24df4d360910
 labels:
 - LegacyProject
-timeCreated: 1494179550
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: prefabs
   assetBundleVariant: 

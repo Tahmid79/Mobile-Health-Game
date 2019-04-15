@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 01fdffdb35358544f8c6080251208de3
+guid: 3bbd08249d8b7b14199fdb32e367ea89
 labels:
 - cliff
 - dirt
@@ -8,9 +8,9 @@ labels:
 - rockgrass
 - rocks
 - stones
-timeCreated: 1494163968
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: prefabsmobile
   assetBundleVariant: 

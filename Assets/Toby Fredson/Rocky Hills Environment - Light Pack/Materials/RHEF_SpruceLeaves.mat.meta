@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 28303f4da9d2ff541832c09ea9121e76
+guid: 3914424b9ce847648831e36ed3359515
 labels:
 - cliff
 - dirt
@@ -13,9 +13,9 @@ labels:
 - spruce
 - stones
 - tree
-timeCreated: 1493848633
-licenseType: Store
 NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
   userData: 
   assetBundleName: materials
   assetBundleVariant: 

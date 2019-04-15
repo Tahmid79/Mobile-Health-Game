@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BigCanvaController : MonoBehaviour {
 
@@ -87,11 +86,6 @@ public class BigCanvaController : MonoBehaviour {
         //     Debug.Log(prevEquiped.itemID+"->"+equipedItem.itemID);
         //     prevEquiped = equipedItem;
         // }
-
-         //Go to main stage
-        if(Input.GetKey("p")){
-            SceneManager.LoadScene(3);
-        }
     }
 
     public void setEmpty(){
