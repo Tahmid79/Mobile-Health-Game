@@ -50,4 +50,7 @@ public class OnTriggerLoadLevelV2 : MonoBehaviour
 		} 
     }
     }
+    public void LoadLevel(int  level){
+		Application.LoadLevel(level);
+	}
 }
