@@ -141,13 +141,15 @@ public class mn_stg_mov : MonoBehaviour
 	public void Btn_Mv_lft()
 	{
 		
+
 			transform.rotation = Quaternion.Slerp(transform.rotation, originalRotationValue, 10f);
 			float maxangle = 90f;
 			rb.AddForce(-swdforce , 0, 0, ForceMode.VelocityChange);
 			anim.Play("Running");
 			if (transform.eulerAngles.magnitude < maxangle)
 
-				transform.Rotate(-Vector3.up * 90f);		
+				transform.Rotate(-Vector3.up * 90f);
+		
 
 	}
 
