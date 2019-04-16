@@ -6,30 +6,45 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Prefabs/MianStage_final.unity
+    guid: a5280b771776ba8448c4f916e3497376
+  - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: e7f8e7fdf36861e409b65f108ea65232
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/boss_env_touch.unity
+    guid: 78e2bdf39337b634a9449d10effcdeda
+  - enabled: 1
+    path: Assets/Scenes/Archive/ArchiveMain.unity
+    guid: d5d2fcf4940af13429422b85301f9b7a
   - enabled: 1
     path: Assets/MaterialUI/QuestionsScene.unity
     guid: 098dffa5c4addbe45bd97262b5dbbfe7
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 05ec21d46f43a374c82e5be6cc39dcda
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: d62c69d5cec951142b652977f1f15a51
   - enabled: 1
-    path: Assets/InventorySystem01/Assets/Scenes/Inventory.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Archive/ArchiveC.unity
+    guid: 306bde766aa5d8d4e863ae5763a30a93
   - enabled: 1
-    path: Assets/Scenes/boss_env_touch.unity
-    guid: 78e2bdf39337b634a9449d10effcdeda
+    path: Assets/Scenes/Archive/ArchiveI.unity
+    guid: 561788acb7ca950458415d1449b533af
   - enabled: 1
-    path: Assets/Prefabs/MianStage_final.unity
-    guid: a5280b771776ba8448c4f916e3497376
+    path: Assets/Scenes/Archive/ArchiveM.unity
+    guid: dea15cacc166a3b4b9db9cda1199b18a
+  - enabled: 1
+    path: Assets/Scenes/Archive/ArchiveO.unity
+    guid: 4bcdac4aa14999b42ab4164530232210
+  - enabled: 1
+    path: Assets/Scenes/Archive/ArchiveO2.unity
+    guid: 8da2c0c4ab05b8b4d856bde315e9d7cb
+  - enabled: 1
+    path: Assets/Scenes/Archive/ArchiveO3.unity
+    guid: b5e716a4ab76e784b819b459571ceffb
+  - enabled: 1
+    path: Assets/Scenes/Archive/ArchiveS.unity
+    guid: 4bf122ab1ad13ab4fb3124c0d0ce770e
   m_configObjects: {}

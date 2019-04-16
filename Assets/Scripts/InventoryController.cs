@@ -26,7 +26,7 @@ public class InventoryController : MonoBehaviour
     {
 
         Debug.Log("Inventory Controller DB connection startup initialized");
-	    connectionString = "URI=file:" + Application.dataPath + "/InventorySystem01/Assets/InventoryDatabase.db";
+	    connectionString = "URI=file:" + Application.dataPath + "/Assets/InventoryDatabase.db";
 	    Debug.Log("Inventory Controller DB connection startup complete");
 
         for (int i = 0; i < 18; i++)

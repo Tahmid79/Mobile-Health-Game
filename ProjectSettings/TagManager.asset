@@ -13,6 +13,8 @@ TagManager:
   - MaterialText
   - MaterialButtonLayer
   - prompt
+  - loseUI
+  - loseEL
   layers:
   - Default
   - TransparentFX

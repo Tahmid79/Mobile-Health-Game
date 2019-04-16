@@ -4,6 +4,8 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameObject Lose;
+    Losemenue loseui;
     public int startingHealth = 100;                            // The amount of health the player starts the game with.
     public int currentHealth;                                   // The current health the player has.
     public Slider healthSlider;                                 // Reference to the UI's health bar.
@@ -28,6 +30,7 @@ playerAudio = this.GetComponent <AudioSource> ();
     void Awake ()
     {
         // Setting up the references.
+        loseui = Lose.GetComponent<Losemenue>();
         anim = GetComponent <Animator> ();
         //playerAudio = GetComponent <AudioSource> ();
      //   playerMovement = GetComponent <PlayerMovement> ();
@@ -95,6 +98,7 @@ playerAudio = this.GetComponent <AudioSource> ();
 
         // Tell the animator that the player is dead.Current graphic doesnt have a a ' die ' animation 
             anim.Play("death");
+            loseui.displose();
 
         // Set the audiosource to play the death clip and play it (this will stop the hurt sound from playing).
       playerAudio.clip = deathClip;
