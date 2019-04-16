@@ -99,7 +99,7 @@ public class GameOverManager : MonoBehaviour {
 
 	public void onQuitBtnClick(){
 		//Go to main stage
-		SceneManager.LoadScene(3);
+		SceneManager.LoadScene(7);
 	}
 
 	public void displayPopup(){
