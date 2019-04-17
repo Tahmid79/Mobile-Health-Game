@@ -41,6 +41,6 @@ public class StartManager : MonoBehaviour {
 	}
 
 	public void onStartBtnClick(){
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene(5);
 	}
 }

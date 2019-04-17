@@ -42,7 +42,7 @@ GameObject pausebt;
 			}
     }
 	public void Reload(){
-		Application.LoadLevel(4);
+		Application.LoadLevel(3);
 	}
 
 	//controls the pausing of the scene

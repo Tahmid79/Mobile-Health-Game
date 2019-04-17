@@ -196,7 +196,7 @@ void loadQuestions() {
 			setCurrentQuestion(rnd.Next(0, unansweredQuestions.Count));
 
 		} else {
-			SceneManager.LoadScene(2);
+			SceneManager.LoadScene(6);
 		}
 
 	}
